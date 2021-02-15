@@ -119,7 +119,7 @@ int getal = 5;
 double anderGetal = 5.5;
 uint nogAnderGetal = 15u;
 float kleinKommaGetal = 158.9f;
-char letter = `k`
+char letter = 'k';
 bool isDitCool = true;
 string zin = "Ja hoor";
 ```

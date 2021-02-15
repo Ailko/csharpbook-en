@@ -26,7 +26,7 @@ Het hart van Visual Studio bestaat uit de compiler die we hiervoor besproken heb
 
 ### Visual Studio Installeren
 
-In dit boek zullen de voorbeelden steeds met de **Community** editie van VS gemaakt zijn. Je kan deze gratis downloaden en installeren  via [visualstudio.microsoft.com/vs](https://visualstudio.microsoft.com/vs/).
+In dit boek zullen de voorbeelden steeds met de **Community** editie van VS gemaakt zijn. Je kan deze gratis downloaden en installeren  via [visualstudio.microsoft.com/vs](https://visualstudio.microsoft.com/vs/). Heb je een Mac? Kijk dan in de appendix hoe je VS moet installeren.
 
 Het is belangrijk bij de installatie dat je minimaal volgende zaken selecteert:
 * de **.NET desktop development** en **.NET Core cross-platform development**  workload. 

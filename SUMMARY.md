@@ -60,6 +60,7 @@
   * [Jagged arrays](7_arrays/5_jaggedArrays.md) 
 
 ## Appendix 
+* [VS installeren op Mac](B_appendix/mac.md)
 * [Nuttige extras](_intro/nuttigeextras.md)
 * [Wistjedatjes](B_appendix/prostuff.md)
 * [Out,Ref en TryParse](B_appendix/2_outenref.md)
