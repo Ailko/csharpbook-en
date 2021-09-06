@@ -5,7 +5,7 @@ De gepubliceerde versies zijn identiek aan deze cursus.
 Kijk op [ziescherp.be](ziescherp.be) waar u deze cursus op verschillende manieren kunt aanschaffen (kleur of zwart wit, pdf of papier, etc.)
 
 
-![](./assets/boek.jpg)
+![](./assets/boeks.jpg)
 
 
 
