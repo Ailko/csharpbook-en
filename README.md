@@ -8,16 +8,13 @@ Concreet is dit het handboek voor de eerste 2 semesters omtrent 'leren programme
 * Zie Scherp: Programming Principles, eerste semester
 * Zie Scherper: Object Oriented Programming, tweede semester
 
+
+![](./assets/boek.jpg)
+
+
 # Boek verkrijgen
 
-Deze cursus wordt ook aangeboden voor de "buitenwereld". Deze online cursus zal ten allen tijde beschikbaar blijven onder het Creatieve Commons 4.0 principe (zie onderaan). Wil je de auteur sponsoren dan kan dit door het eerste deel (Zie Scherp) via 1 van volgende versies aan te schaffen (De gepubliceerde versies zijn identiek aan deze cursus)
-
-**Editie 2:**
-* Paperback, kleur (ISBN: 9789464187427): [Bravenewbooks](https://www.bravenewbooks.nl/shop/index.php/catalog/product/view/id/544359/s/zie-scherp-c-voor-beginners-enthousiastelingen-en-geeks-251307-www-bravenewbooks-nl/), [bol.com](https://www.bol.com/nl/p/zie-scherp/9300000023492179/?bltgh=pyHQVLKbHvqg3UcCFz9Crw.1_4.6.ProductImage), [Standaard boekhandel](https://www.standaardboekhandel.be/p/zie-scherp-9789464187427), [Amazon.nl](https://www.amazon.nl/dp/9464187425/ref=sr_1_3?__mk_nl_NL=%C3%85M%C3%85%C5%BD%C3%95%C3%91&dchild=1&keywords=zie+scherp&qid=1611095821&sr=8-3) en vele andere boekenwinkels.
-* Paperback, zwartwit (ISBN: 9789464187892): [Bravenewbooks](https://www.bravenewbooks.nl/shop/index.php/catalog/product/view/id/544439/s/zie-scherp-c-voor-beginners-enthousiastelingen-en-geeks-zwartwit-editie-252007-www-bravenewbooks-nl/), [bol.com](https://www.bol.com/nl/p/zie-scherp/9300000023492108/?bltgh=m6bIdbUGWkGwdhcHLmNDmw.1_4.8.ProductTitle), [Standaard boekhandel](https://www.standaardboekhandel.be/p/zie-scherp-9789464187892), [Amazon.nl](https://www.amazon.nl/dp/9464187891/ref=sr_1_2?__mk_nl_NL=%C3%85M%C3%85%C5%BD%C3%95%C3%91&dchild=1&keywords=zie+scherp&qid=1611095821&sr=8-2) en vele andere boekenwinkels.
-* PDF: [Leanpub](http://leanpub.com/ziescherp/)
-
-
+Deze cursus wordt ook aangeboden voor de "buitenwereld". Deze online cursus zal ten allen tijde beschikbaar blijven onder het Creatieve Commons 4.0 principe (zie onderaan). Wil je deze cursus toch in papieren of andere digitale vorm hebben? Dat kan via [ziescherp.be](ziescherp.be).
 
 
 {% hint style='hint' %}
