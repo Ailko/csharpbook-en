@@ -75,7 +75,7 @@ Na het opstarten van VS krijg je het startvenster te zien van waaruit je verschi
 We zullen nu een nieuw project aanmaken, kies hiervoor "Create a new project".
 
 <!--- {height:30%} --->
-![Kies je projecttype](../assets/0_intro/proj.jpg)
+![Kies je projecttype](../assets/0_intro/proj.png)
 
 {% hint style='tip' %}
 Het "New Project" venster dat nu verschijnt geeft je hopelijk al een glimp van de veelzijdigheid van VS. In het rechterdeel zie je bijvoorbeeld alle Project Types staan. M.a.w. dit zijn alle soorten programma’s die je kan maken in VS. Naargelang de geïnstalleerde opties en bibliotheken zal deze lijst groter of kleiner zijn.
@@ -84,7 +84,7 @@ Het "New Project" venster dat nu verschijnt geeft je hopelijk al een glimp van d
 <!---{pagebreak} --->
 
 
-In dit boek zullen we altijd het  Project Type  **Console App (.NET Core)** gebruiken. Een console applicatie is een programma dat alle uitvoer naar een zogenaamde *console* stuurt, een shell. M.a.w., je kan enkel tekst (Unicode) als uitvoer genereren en dus geen multimedia elementen zoals afbeeldingen, geluid, etc.
+In dit boek zullen we altijd het  Project Type  **Console App** gebruiken (ZONDER .NET Framework achteraan). Een console applicatie is een programma dat alle uitvoer naar een zogenaamde *console* stuurt, een shell. M.a.w., je kan enkel tekst (Unicode) als uitvoer genereren en dus geen multimedia elementen zoals afbeeldingen, geluid, etc.
 
 Kies dit type en klik 'Next'.
 
@@ -100,7 +100,7 @@ Op het volgende scherm kan je een naam ingeven voor je project alsook de locatie
 {% hint style='tip' %}
 Geef je projectnamen ogenblikkelijk duidelijke namen zodat je niet opgezadeld geraakt met projecten zoals Project201, etc. waarvan je niet meer weet welke belangrijk zijn en welke niet.
 {% endhint %}
-Geef je project de naam "MyFirstProject" en kies een goede locatie (ik raad je aan dit steeds in Dropbox of Onedrive te doen). We raden af om de checkbox onderaan aan te vinken. In de toekomst zal het nuttig zijn dat je meer dan 1 project per solution zal kunnen hebben. Lig er nog niet van wakker. **Klik nu op create**.
+Geef je project de naam "MyFirstProject" en kies een goede locatie (ik raad je aan dit steeds in Dropbox of Onedrive te doen). We raden af om de checkbox onderaan aan te vinken. In de toekomst zal het nuttig zijn dat je meer dan 1 project per solution zal kunnen hebben. Lig er nog niet van wakker.  Klik op next en kies als Target Framework de meest recente versie. **Klik nu op create**.
 
 <!---NOBOOKSTART--->
 <!--- {height:35%} --->
