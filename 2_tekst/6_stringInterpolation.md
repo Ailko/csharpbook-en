@@ -33,7 +33,7 @@ Console.WriteLine(1+1+"1");
 Console.WriteLine("1" + (1 + 1));
 ```
 
-Geef als uitvoer:
+Geeft als uitvoer:
 
 <!---{line-numbers:false}--->
 ```text
