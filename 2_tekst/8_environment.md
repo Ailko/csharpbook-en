@@ -42,7 +42,7 @@ Je kan [hier](https://docs.microsoft.com/en-us/dotnet/api/system.environment) op
 
 ### Programma afsluiten
 
-De ``Enviroment`` bibliotheek heeft ook een methode om je applicatie af te sluiten. Je doet dit met behulp van ``Environment.Exit(0);`` Het getal tussen haakjes mag je zelf bepalen en is de zogenaamde foutcode die je wilt meegeven bij het afsluiten (als je dan later via logbestanden wilt onderzoeken waarom het programma stopte dan kan je opzoeken weke foutcode er werd opgeworpen via de logs van je besturingssysteem).
+De ``Enviroment`` bibliotheek heeft ook een methode om je applicatie af te sluiten. Je doet dit met behulp van ``Environment.Exit(0);`` Het getal tussen haakjes mag je zelf bepalen en is de zogenaamde foutcode die je wilt meegeven bij het afsluiten (als je dan later via logbestanden wilt onderzoeken waarom het programma stopte dan kan je opzoeken welke foutcode er werd opgeworpen via de logs van je besturingssysteem).
 
 {% hint style='tip' %}
 Wanneer we met complexere programma's gaan leren werken zal het soms nuttig zijn om ``Environment.Exit(0);`` te gebruiken. 
