@@ -1,5 +1,3 @@
-<!---{sample: true}--->
-
 # De eerste stappen
 
 Wel, wel, wie we hier hebben?! Iemand die de edele kunst van het programmeren wil leren? Dan ben je op de juiste plaats gekomen. Je gelooft het misschien niet, maar reeds aan het einde van dit hoofdstuk zal je je eerste eigen computer-applicaties kunnen maken. De weg naar eeuwige roem, glorie, véél vloeken en code herbruiken ligt voor je. Ben je er klaar voor? 
@@ -64,16 +62,13 @@ Het fijne van leren programmeren is dat je binnenkort op een bepaald punt gaat k
 Zelfs JavaScript, Python en veel andere moderne talen zullen weinig geheimen voor jou hebben wanneer je aan het einde van dit boek bent.
 {% endhint %}
 
-<!---{pagebreak} --->
-
-
 ### De compiler
 
 Rechtstreeks onze algoritmen tegen de computer vertellen vereist dat we machinetaal kunnen. Deze is echter zo complex dat we tientallen lijnen machinetaal nodig hebben om nog maar gewoon 1 letter op het scherm te krijgen. Er werden daarom dus hogere programmeertalen ontwikkeld die aangenamer zijn dan deze zogenaamde machinetalen om met computers te praten.
 
 Uiteraard hebben we een vertaler nodig die onze code zal vertalen naar de machinetaal van het apparaat waarop ons programma moet draaien. Deze vertaler is de **compiler** die aardig wat complex werk op zich neemt, maar dus in essentie onze code gebruiksklaar maakt voor de computer.
 
-<!--- {width:90%} --->
+
 ![Vereenvoudigd compiler overzicht](../assets/1_csharpbasics/compilersimple.png)
 
 Merk op dat we hier veel details van de compiler achterwege laten. De compiler is een uitermate complex element, maar in deze fase van je (prille) programmeursleven hoeven we enkel de kern van de compiler te begrijpen: **het omzetten van C# code naar een uitvoerbaar bestand geschreven in IL code**.
@@ -88,12 +83,9 @@ Bij de geboorte van .NET in 2000 zat ook de taal C#.
 Om een uitvoerbaar bestand te maken (**executable**, vandaar de extensie .exe bij uitvoerbare programma's in windows) zal de broncode die je hebt geschreven in C# worden omgezet naar **Intermediate Language** (IL) code. Op zich is deze IL code nog niet uitvoerbaar, maar dat is niet ons probleem. Wanneer een gebruiker een in IL geschreven bestand wil uitvoeren dan zal, achter de schermen, de CLR deze code ogenblikkelijk naar machine code omzetten (**Just-In-Time** of JIT compilatie) en uitvoeren. De gebruiker zal dus nooit dit proces opmerken (tenzij er geen .NET framework werd geïnstalleerd op het systeem).
 {% endhint %}
 
-<!---NOBOOKSTART--->
+
 
 ### Kennisclip
 ![](../assets/infoclip.png)
 * [Introductie tot C#](https://ap.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=f517d032-35b9-4c9f-ba91-ac33007cd2a6)
 
-<!---NOBOOKEND--->
-
-<!---{sample: false}--->
