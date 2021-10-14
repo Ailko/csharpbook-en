@@ -29,7 +29,7 @@ static void Main(string[] args)
 }
 ```
 
-<!---{pagebreak} --->
+
 
 ### ``out``
 Door het ``out`` keyword te gebruiken geven we expliciet aan dat we beseffen dat de parameter in kwestie pas binnen de methode een waarde zal toegekend krijgen. Wat we hier tonen:
