@@ -11,7 +11,7 @@ int[,] regen =
             };
 ```
 
-<!--- {width:45%} --->
+
 ![Een tweedimensionale array](../assets/5_arrays/2d.png)
 
 {% hint style='tip' %}
@@ -23,7 +23,7 @@ De arrays die we nu behandelen zullen steeds "rechthoekig" zijn. Daarmee bedoele
 {% hint style='tip' %}
 Arrays die per rij of kolom een andere hoeveelheid elementen hebben zijn zogenaamde **jagged arrays**, welke we kort hierna bespreken.
 {% endhint %}
-<!---{pagebreak} --->
+
 
 ### n-dimensionale arrays aanmaken
 Door een komma tussen rechte haakjes te plaatsen tijdens de declaratie van een array, kunnen we meer-dimensionale arrays maken. 
@@ -42,12 +42,12 @@ short[,,] temperaturen;
 
 {% hint style='tip' %}
 Ja, dit kan dus ook een 10-dimensionale array aanmaken. Kan handig zijn als je een fysicus bent die rond de supersnaartheorie onderzoek doet.
-<!---{line-numbers:false}--->
+
 ```java
 int[,,,,,,,,,] jeBentGekAlsJeHierMeeWiltWerken;
 ```
 Ja, 11 kan ook als je meer in de M-theorie gelooft. En zelfs 26 moest de bosonische snaartheorie meer je ding zijn:
-<!---{line-numbers:false}--->
+
 ```java
 int[,,,,,,,,,,,,,,,,,,,,,,,,,] jeBentGekAlsJeHierMeeWiltWerken;
 ```
@@ -76,7 +76,7 @@ string[,] boeken =
 
 Merk op dat we dus nu een 3 bij 4 array maken maar dat dit dus nog steeds een 2D-array is. Iedere rij bestaat uit 3 elementen. We maken letterlijk een array van arrays.
 
-<!---{pagebreak} --->
+
 
 Of bij een 3D:
 ```java
@@ -96,7 +96,7 @@ int[,,] temperaturen =
 
 Die we als volgt kunnen visualiseren:
 
-<!--- {width:65%} --->
+
 ![De derde dimensie bestaat uit 3 2-dimensionale 2 bij 2 arrays...](../assets/5_arrays/3D.png)
 
 {% hint style='tip' %}
@@ -105,7 +105,7 @@ Zoals je ziet worden meerdimensionale arrays snel een kluwen van komma's, accola
 De regel is eenvoudig: als je een 7-dimensionale array nodig hebt, is de kans groot dat je een  volledig verkeerd algoritme hebt verzonnen, of dat je nog niet aan het volgende boekdeel bent begonnen of een topwetenschapper in CERN bent. Choose your reason!
 {% endhint %}
 
-<!---{pagebreak} --->
+
 
 Stel dat we uit de boeken-array de auteur van het derde boek wensen te tonen dan kunnen we schrijven:
 
@@ -139,11 +139,10 @@ Console.WriteLine(boeken.Rank); //geeft 2
 Console.WriteLine(temperaturen.Rank); //geeft 3
 ```
 
-<!---{pagebreak} --->
 
-<!---NOBOOKSTART--->
+
+
 ## Kennisclip
 ![](../assets/infoclip.png)
 * [Meer-dimensionale arrays](https://ap.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=9dea3f48-d5b9-4469-823c-ac590085d881)
 
-<!---NOBOOKEND--->

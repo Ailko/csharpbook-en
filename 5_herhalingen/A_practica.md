@@ -1,10 +1,10 @@
 ### Herhalingen, herhalingen, herhalingen
 
-<!---NOBOOKSTART--->
+
 {% hint style='tip' %}
 Vanaf dit hoofdstuk zul je véél meer oefeningen voorgeschoteld krijgen dan je kan afwerken in 1 labo tijd (I dare you ;) ). Selecteer zelf de oefeningen die je wenst te doen en sla die over waarvan je overtuigd bent ze al te kunnen. 
 {% endhint %}
-<!---NOBOOKEND--->
+
 
 {% hint style='tip' %}
 De oefeningen zijn, in de mate van het mogelijke, gerangschikt op relatieve moeilijkheidsgraad
@@ -15,14 +15,14 @@ Indien niet expliciet vermeld mag je kiezen met wat voor loop (``for``, ``while`
 {% endhint %}
 
 #### De opwarmers
-<!---NOBOOKSTART--->
+
 ##### Opwarmers van opwarmers
 Bekijk maak de oefeningen 8 tot en met 13 van hoofdstuk 4 in volgende [pdf](../assets/docs/oefenvragen2010.pdf) 
 
 {% hint style='tip' %}
 Dit document staat ook in de lijst onderaan bij de [nuttige extra's](../_intro/nuttigeextras.md).
 {% endhint %}
-<!---NOBOOKEND--->
+
 
 1. Lees een willekeurig aantal getallen in met als afsluitwaarde 0. Bereken de som en druk die af.
 2. Lees een willekeurig aantal getallen in met als afsluitwaarde 0. Druk het aantal strikt positieve en het aantal strikt negatieve getallen af.

@@ -17,10 +17,10 @@ Merk trouwens op dat je de WriteLine-methode ook mag aanroepen zonder parameters
 
 Met behulp van de F1-toets kunnen meer info over de methode in kwestie tonen. Hiervoor dien je je cursor op de Methode in je code te plaatsen, en vervolgens op F1 te drukken. Je komt dan op de online documentatie van de methode waar erg veel informatie terug te vinden is over het gebruik ervan. Scroll naar de *overload list* , daar zien we de verschillende manieren waarop je de methode in kwestie kan aanroepen (het concept *overloaden* bespreken we in de volgende sectie). Je kan vervolgens op iedere methode klikken voor meer informatie en een codevoorbeeld.
 
-<!---NOBOOKSTART--->
-<!--- {width:75%} --->
+
+
 ![De online documentatie voor WriteLine: laat je niet overdonderen door dit soort pagina's. Er staat op deze pagina bijna niets dat niet in dit boek werd, of zal worden, behandeld](../assets/4_methoden/methoden2.png)
-<!---NOBOOKEND--->
+
 
 
 ### Intellisense
@@ -28,7 +28,7 @@ Met behulp van de F1-toets kunnen meer info over de methode in kwestie tonen. Hi
 
 De online documentatie van VS is zeer uitgebreid en dankzij **IntelliSense** krijg je ook aardig wat informatie tijdens het typen van de code zelf. IntelliSense is de achterliggende technologie in VS die ervoor zorgt dat je minder moet typen. Als een soort assistent probeert IntelliSense een beetje te voorspellen wat je gaat typen en zal je daarmee helpen. 
 
-<!---{pagebreak} --->
+
 
 Type eens het volgende in:
 

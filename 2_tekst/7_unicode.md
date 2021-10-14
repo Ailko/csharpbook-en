@@ -2,7 +2,7 @@
 
 Niets is zo leuk als de vreemdste Unicode tekens op het scherm tonen. In oude console-games werden deze tekens vaak gebruikt om complexe tekeningen op het scherm te tonen. Om je ietwat saaie applicaties dus wat toffer te maken leggen we daarom uit hoe je dit kan doen.
 
-<!---{width:70%} --->
+
 ![Dwarf fortress: een van de bekendste (én meest complexe) console-games ooit waar nog steeds aan ontwikkeld, wordt gebruikt ongelooflijk veel bizarre karakters om zo een erg 'cool' ogende user interface te maken](../assets/0_intro/kerosenethunder_mockup.png)
 
 ### Unicode karakters tonen
@@ -15,11 +15,11 @@ Dit gaat als volgt in z'n werk:
 2. Plaats bovenaan je Main: `Console.OutputEncoding = System.Text.Encoding.UTF8;`
 3. Je kan nu op 2 manieren dit teken in console plaatsen.
 
-<!---{pagebreak} --->
+
 
 Stel je voor dat we volgende "omgekeerde t" wensen te gebruiken in onze applicatie:
 
-<!---{height:30%} --->
+
 ![Een handig teken als je een huis wilt tekenen in de console](../assets/0_intro/letter.jpg)
 
 #### Manier 1: copy/paste
@@ -49,7 +49,7 @@ Wil je dus bovenstaande teken schrijven dan kan dat ook als volgt:
 Console.WriteLine("\u02e7");
 ```
 
-<!---{pagebreak} --->
+
 
 ### Unicode-kunst tonen
 
@@ -82,7 +82,7 @@ Console.WriteLine($@"1/1={1+1}. \tGeen tab");
 
 Dit geeft als output (``\t`` wordt door het apenstaartje genegeerd):
 
-<!---{line-numbers:false}--->
+
 ```text
 1/1=2. \tGeen tab
 ```
@@ -103,9 +103,8 @@ Zal als uitvoer geven:
 ```
 {% endhint %} 
 
-<!---NOBOOKSTART--->
+
 ### Kennisclip
 ![](../assets/infoclip.png)
 
 * [Unicode tonen](https://ap.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=9b7eb60b-35fd-4f4e-b825-ac3800850087)
-<!---NOBOOKEND--->

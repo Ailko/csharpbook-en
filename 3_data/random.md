@@ -42,7 +42,7 @@ Console.WriteLine($"Nog een getal: {myGen.Next()}");
 De ``new Random()`` code is iets wat in het tweede deel van deze boekenreeks volledig uit de doeken zal gedaan worden. Lig er dus niet van wakker.
 {% endhint %}
 
-<!---{pagebreak} --->
+
 
 #### Next mogelijkheden
 Je kan de ``Next`` methode ook 2 parameters meegeven, namelijk de grenzen waarbinnen het getal moet gegenereerd worden. De tweede parameter is exclusief dit getal zelf. Wil je dus een willekeurig geheel getal tot en met 10 dan schrijf je 11, niet 10, als tweede parameter:
@@ -74,13 +74,13 @@ double randomGetal = 5.0+  (myRan.NextDouble() * 7.5);
 
 Je bereik is 7.5, namelijk ``12.5 - 5.0`` en vermenigvuldig je het resultaat van je generator hiermee. Vervolgens verschuif je dat bereik naar 5 en verder door er 5 bij op te tellen. Merk op dat we de volgorde van berekeningen *sturen* met onze ronde haakjes.
 
-<!---{pagebreak} --->
 
-<!---NOBOOKSTART--->
+
+
 {% hint style='warning' %}
-<!---NOBOOKEND--->
-<!---{aside}--->
-<!--- {float:right, width:50%} --->
+
+
+
 ![](../assets/attention.png)
 **"Help! Ik krijg dezelfde random getallen? Wat nu?"**
 
@@ -106,13 +106,12 @@ In het volgende voorbeeld zal generator ``a`` steeds dezelfde reeks willekeurige
 ```java
 Random a = new Random(666);
 ```
-<!---{/aside}--->
-<!---NOBOOKSTART--->
-{% endhint %}
-<!---NOBOOKEND--->
 
-<!---NOBOOKSTART--->
+
+{% endhint %}
+
+
+
 ## Kennisclip
 ![](../assets/infoclip.png)
 * [Random](https://ap.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=b3c83c9c-5e84-45b8-949b-ac3d00a41820)
-<!---NOBOOKEND--->

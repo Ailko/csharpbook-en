@@ -1,4 +1,4 @@
-<!---{sample: true}--->
+
 ## Console-applicaties
 
 Een console-applicatie is een  programma dat zijn in- en uitvoer via een klassiek commando/shell-scherm toont. Een console-applicatie draait  in dezelfde omgeving als wanneer we in Windows een command-prompt openen (via Start-> Uitvoeren-> ``cmd`` [enter] ). We zullen in dit boek enkel console-applicaties leren maken. Grafische frontends zoals WPF komen in dit boek niet aan bod.
@@ -28,8 +28,6 @@ Voeg onder de lijn ``Console.WriteLine("Hello World!");`` volgende code toe (ver
 ```java
 Console.WriteLine("Hoi, ik ben het!");
 ```
-
-<!---{pagebreak} --->
 
 Zodat je dus volgende code krijgt:
 
@@ -73,11 +71,9 @@ Laat je niet afschrikken door wat er nu volgt. We gooien je even in het diepe ge
 * **``Console.WriteLine("Hoi ik ben het");``**: en ook deze lijn komt op het scherm.
 * **Accolades**: vervolgens moet voor iedere openende accolade eerder in de code nu ook een bijhorende sluitende volgen.
 
-<!---NOBOOKSTART--->
+
 {% hint style='tip' %}
-<!---NOBOOKEND--->
-<!---{aside}--->
-<!--- {float:right, width:50%} --->
+
 ![](../assets/care.png)
 Jawadde...Wat was dit allemaal?! We hebben al aardig wat vreemde code zien passeren en het is niet meer dan normaal dat je nu denkt "dit ga ik nooit kunnen".  Wees echter niet bevreesd: je zal sneller dan je denkt bovenstaande code als 'kinderspel' gaan bekijken. Een tip nodig? Test en experimenteer met wat je al kunt!
 
@@ -86,10 +82,8 @@ Laat deze info rustig inzinken en onthoud alvast volgende belangrijke zaken:
 * Al je eigen code komt momenteel enkel tussen de ``Main`` accolades.
 * Eindig iedere lijn code daar met een puntkomma ( ; ).
 
-<!---{/aside}--->
-<!---NOBOOKSTART--->
+
 {% endhint %}
-<!---NOBOOKEND--->
 
 {% hint style='tip' %}
 De oerman verschijnt wanneer we een stevige stap gezet hebben en je mogelijk even onder de indruk bent van al die nieuwe informatie. Hij zal proberen informatie nog eens vanuit een ander standpunt toe te lichten en te herhalen waarom deze nieuwe kennis zo belangrijk is.
@@ -101,7 +95,7 @@ De oerman verschijnt wanneer we een stevige stap gezet hebben en je mogelijk eve
 {% endhint %}
 
 
-<!---{pagebreak} --->
+
 
 
 ### WriteLine: Tekst op het scherm
@@ -130,11 +124,8 @@ We tonen niet telkens de volledige broncode. Als we dat blijven doen dan wordt d
 {% endhint %}
 
 
-<!---NOBOOKSTART--->
 
 ### Kennisclip
 ![](../assets/infoclip.png)
 * [Je eerste programma](https://ap.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=8c676809-33a8-4178-84f9-ac3200ce837e)
 
-<!---NOBOOKEND--->
-<!---{sample: false}--->

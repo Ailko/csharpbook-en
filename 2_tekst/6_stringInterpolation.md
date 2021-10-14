@@ -35,7 +35,7 @@ Console.WriteLine("1" + (1 + 1));
 
 Geeft als uitvoer:
 
-<!---{line-numbers:false}--->
+
 ```text
 111
 21
@@ -67,7 +67,7 @@ Zoals je kan zien is dit veel meer leesbare code dan de eerste manier.
 
 Het resultaat zal dan worden: ```Ik ben Finkelstein en ik ben 13 jaar oud.```
 
-<!---{pagebreak} --->
+
 
 #### Berekeningen doen bij string interpolatie
 Je mag eender welke *expressie* tussen de accolades zetten bij string interpolation, denk maar aan:
@@ -85,7 +85,7 @@ string result = $"Ik ben {age*age+(3%2)} jaar oud.";
 {% hint style='warning' %}
 Uiteraard mag je dit dus ook gebruiken wanneer je eenvoudiger zaken naar het scherm wenst te sturen gebruik makende van ``Console.WriteLine`` en interpolatie:
 
-<!---{line-numbers:false}--->
+
 ```java
 Console.WriteLine($"3 maal 9 is  {3*9}");
 ```
@@ -137,16 +137,15 @@ Namelijk:  ``Ik ben 13 en ik ben 13 jaar oud.``
 {% hint style='tip' %}
 Je kan deze vorm van formateren ook toepassen in ``Console.WriteLine`` zonder dat je expliciet ``String.Format`` hiervoor moet aanroepen:
 
-<!---{line-numbers:false}--->
+
 ```java
 Console.WriteLine("Gratis formateren. {0} maal hoera voor .NET!", 3);
 ```
 {% endhint %}
 
-<!---NOBOOKSTART--->
+
 ### Kennisclip
 ![](../assets/infoclip.png)
 
 
 * [String interpolation](https://ap.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=a054ae85-1e31-44ba-b3fb-ac38008554a1)
-<!---NOBOOKEND--->

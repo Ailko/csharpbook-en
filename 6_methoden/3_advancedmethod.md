@@ -36,7 +36,7 @@ We kunnen named parameters aangeven door de naam van de parameter gevolgd door e
 
 Kortom, op deze manier maakt de volgorde van parameter niets uit. Dit werkt enkel als je **alle** parameters zo gebruikt.
 
-<!---{pagebreak} --->
+
 
 #### Named en unnamed mixen: volgorde wél belangrijk
 
@@ -82,7 +82,7 @@ BookFile(3, age: 4);
 ```
 
 
-<!---{pagebreak} --->
+
 
 ### Method overloading
 
@@ -131,7 +131,7 @@ static int BerekenOppervlakte(double straal) //versie B
 }
 ```
 
-<!---{pagebreak} --->
+
 
 Volgende aanroepen zullen dus als volgt uitgevoerd worden, gebaseerd op de betterness rule:
 
@@ -178,7 +178,7 @@ static void Toonverhouding(double a, int b) //versie B
 }
 ```
 
-<!---{pagebreak} --->
+
 
 Indien ook die regel niet werkt dan zal een fout optreden zoals hier, wat zal resulteren in een foutmelding:
 
@@ -201,10 +201,10 @@ static void Toonverhouding(double a, int b)
 }
 ```
 
-<!---NOBOOKSTART--->
+
 ### Kennisclip
 ![](../assets/infoclip.png)
 * [Geavanceerde methodetechnieken](https://ap.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=75c9a72b-f485-4660-b71e-ac4f00bb0c38)
 * [Fun with methods](https://ap.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=ab62fdcd-94f3-4028-bee1-ac3600ca414b)
 
-<!---NOBOOKEND--->
+

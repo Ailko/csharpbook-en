@@ -87,7 +87,7 @@ Transportkosten:
 Een ticket wordt getoond dat de volledige bestelling in tekst toont met erachter, via tab, steeds de prijs. Onderaan volgt de totaalprijs. 
 Voorbeeld van een ticket:
 
-<!---{line-numbers:false}--->
+
 ```text
 Martian meal			2.8 IC
 Italian Cheese			5.5 IC
@@ -113,7 +113,7 @@ De module zal dus steeds het geheel aantal tonnen benzine tonen , gevolgd door h
 
 De benzine module toont deze informatie onderaan het ticket:
 
-<!---{line-numbers:false}--->
+
 ```text
 Martian meal			2.8 IC
 Italian Cheese			5.5 IC

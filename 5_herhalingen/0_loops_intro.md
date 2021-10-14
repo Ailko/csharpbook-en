@@ -34,13 +34,13 @@ Volgende flowchart kan je helpen om te bepalen wat voor loop je juist zal nodig 
 
 ![](../assets/3_loops/loopflow.png)
 
-<!---NOBOOKSTART--->
+
 ### Kennisclip
 ![](../assets/infoclip.png)
 
 * [Loops intro](https://ap.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=3276517e-fc5b-4f0c-9ef2-ac4b006fc937)
 
-<!---NOBOOKEND--->
+
 
 
 

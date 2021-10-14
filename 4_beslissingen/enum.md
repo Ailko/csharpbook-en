@@ -1,15 +1,15 @@
 ## Enum
-<!---NOBOOKSTART--->
+
 {% hint style='warning' %}
-<!---NOBOOKEND--->
-<!---{aside}--->
-<!--- {float:right, width:50%} --->
+
+
+
 ![](../assets/attention.png)
 Helm op alsjeblieft! ``enum`` is een erg onderschat concept bij beginnende programmeurs. Enums zijn wat raar in het begin, maar van zodra je er mee weg bent zal je niet meer zonder kunnen en zal je code zoveel eleganter en stoerder worden. Zet je helm dus op en begin er aan!
-<!---{/aside}--->
-<!---NOBOOKSTART--->
+
+
 {% endhint %}
-<!---NOBOOKEND--->
+
 
 ### De bestaansreden voor enums
 Stel dat je een programma moet schrijven dat afhankelijk van de dag van de week iets anders moet doen. In een wereld zonder enums (**enumeraties**, letterlijk *opsommingen*) zou je dit kunnen schrijven op 2 zeer foutgevoelige manieren:
@@ -36,7 +36,7 @@ Deze oplossing heeft 2 grote nadelen:
 * Wat als we per ongeluk ``dagKeuze`` een niet geldige waarde geven, zoals 9, 2000 of  -4 ?
 * De code is niet erg leesbaar. Wat was ``dagKeuze ==2`` nu weer? Was ``2`` nu dinsdag of woensdag (want misschien was maandag 0 i.p.v. 1) ?
 
-<!---{pagebreak} --->
+
 
 #### Slechte oplossing 2: Met strings
 
@@ -69,7 +69,7 @@ Het keyword ``enum`` geeft aan dat we een nieuw datatype maken dat maar enkele m
 In C# zitten al veel enum-types ingebouwd. Denk maar aan ``ConsoleColor``: wanneer je de kleur van het lettertype van de console wilt veranderen gebruiken we een enum-type. Er werd reeds gedefinieerd wat de toegelaten waarden zijn, bijvoorbeeld: ``Console.ForegroundColor = ConsoleColor.Red;`` 
 {% endhint %}
 
-<!---{pagebreak} --->
+
 
 ### Zelf enum maken
 Zelf een ``enum`` type maken gebeurt in 2 stappen:
@@ -111,7 +111,7 @@ dagKeuze = Weekdagen.Donderdag;
 
 Kortom: we hebben variabelen zoals we gewoon zijn, het enige verschil is dat we nu beperkt zijn in de waarden die we kunnen toewijzen. Deze kunnen enkel de waarden krijgen die in het type gedefinieerd werden. De code is nu ook een pak leesbaarder geworden.
 
-<!---{pagebreak} --->
+
 
 ### Enums en beslissingen werken graag samen
 Ook de beslissingsstructuren worden leesbaarder:
@@ -140,7 +140,7 @@ Hoe?
 * Profit!
 {% endhint %}
 
-<!---{pagebreak} --->
+
 
 ### Conversie van en naar enum variabelen
 Intern worden de enum-variabelen als ints bewaard. In het geval van de ``Weekdagen`` zal maandag standaard de waarde 0 krijgen, dinsdag 1, etc.
@@ -217,13 +217,13 @@ static void Main(string[] args)
 
 
 
-<!---{pagebreak} --->
 
-<!---NOBOOKSTART--->
+
+
 {% hint style='warning' %}
-<!---NOBOOKEND--->
-<!---{aside}--->
-<!--- {float:right, width:50%} --->
+
+
+
 ![](../assets/care.png)
 
 Ah, de tijden zonder ``enum``. Ik weet nog hoe we onze grotten beschilderden zonder ons druk te moeten maken in enumeraties. Om maar te zeggen: je kan perfect leven zonder ``enum``. Vele programmeurs voor je hebben dit bewezen. Echter, van zodra ze ``enum`` ontdekten (en begrepen) zijn nog maar weinig programmeurs er terug van afgestapt. 
@@ -264,16 +264,16 @@ if(spelstuk == Schaakstuk.Paard)
 ```
 
 
-<!---{/aside}--->
-<!---NOBOOKSTART--->
-{% endhint %}
-<!---NOBOOKEND--->
 
-<!---NOBOOKSTART--->
+
+{% endhint %}
+
+
+
 ### Kennisclip
 ![](../assets/infoclip.png)
 
 * [Enum](https://ap.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=41f45fba-c731-4f0a-9e87-ac4600952274)
 * [Demo: Enums gebruiken](https://ap.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=9273e56b-1bfa-4393-a14a-aaed00bd4eaf)
 
-<!---NOBOOKEND--->
+

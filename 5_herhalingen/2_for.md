@@ -46,7 +46,7 @@ Voor de *setup*-variabele kiest men meestal ``i``, maar dat is niet noodzakelijk
 Als je in Visual Studio ``for`` typt en dan tweemaal op [tab] duwt krijg je  kant en klare for-loop code.
 {% endhint %}
 
-<!---{pagebreak} --->
+
 
 ### continue en break
 
@@ -65,26 +65,26 @@ for (int i = 1; i <= 10; i++)
 
 En met ``break``  kan je loops (alle types) altijd vroegtijdig stopzetten. Je springt dan als het ware ogenblikkelijk uit de loop. Je ziet het aankomen zeker? Yups, daar is ie.... 
 
-<!---NOBOOKSTART--->
+
 {% hint style='warning' %}
-<!---NOBOOKEND--->
-<!---{aside}--->
-<!--- {float:right, width:50%} --->
+
+
+
 ![](../assets/gotopolice.png)
 Olla!? Wat denken we dat we aan het doen zijn? Gelieve die keywords ogenblikkelijk terug uit je code te verwijderen. Bedankt. 
 
 ``break`` en ``continue`` zijn de meer subtiele vrienden van ``goto``. Ze leven, net als  ``goto`` meer in de schemerzone tussen wat mag en niet mag. Dat maakt hen extra gevaarlijk. Voor je ``break`` als oplossing wilt gebruiken probeer je best eerst of je de loop niet mooier kan afsluiten door bijvoorbeeld de juiste booleaanse expressie te beschrijven in de test-conditie. Hetzelfde geldt voor ``continue`` dat ook snel ``goto``-achtige bugs tot gevolg kan hebben. 
 
-<!---{/aside}--->
-<!---NOBOOKSTART--->
+
+
 {% endhint %}
-<!---NOBOOKEND--->
 
 
-<!---NOBOOKSTART--->
+
+
 ## Kennisclip
 
 ![](../assets/infoclip.png)
 
 * [De for loop](https://ap.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=f9e5d2eb-e053-4904-b121-ac4d007f4f55)
-<!---NOBOOKEND--->
+

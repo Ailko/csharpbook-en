@@ -45,7 +45,7 @@ Zorg ervoor dat beide vormen via TekenVorm zichzelf op het scherm kunnen tonen i
 * Heeft als kleur ``ConsoleColor.Green``
 * Een lijn bestaat uit een reeks sterretjes (*)  horizontaal naast elkaar, gelijk aan de lengte die je via de constructor van bij de start kunt meegeven. Bijvoorbeeld bij lengte 3:
 
-<!---{line-numbers:false}--->
+
 ```text
 	* * *
 ```
@@ -59,7 +59,7 @@ Zorg ervoor dat beide vormen via TekenVorm zichzelf op het scherm kunnen tonen i
 * Heeft als kleur ``ConsoleColor.Yellow``
 * Een rechthoek verwacht een lengte en breedte bij het aanmaken en kan zichzelf ook tekenen. Als je lengte 4 en breedte 2 ingaf zou deze er als volgt uitzien:
 
-<!---{line-numbers:false}--->
+
 ```text
  	* * 
 	* * 
@@ -73,7 +73,7 @@ Maak een klasse Vliegtuig dat ook een Vorm is. Een vliegtuig bestaat (compositie
 * Links en rechts van deze rechthoek een lijn van 3 breed, telkens in de helft van de lengte van deze rechthoek 
 * Enkel de locatie op het scherm kan anders zijn per vliegtuig, hun afmetingen echter niet.
 
-<!---{line-numbers:false}--->
+
 ```text
 	   * * 
 	   * * 
@@ -93,7 +93,7 @@ Houdt via een lijst in de klasse de vliegtuigen bij. Een vloot vliegtuigen dat g
 
 Een vloot van 3 vliegtuigen zal er als volgt uitzien op het scherm:
 
-<!---{line-numbers:false}--->
+
 ```text
         * * 
         * *
@@ -162,7 +162,7 @@ VormType, x, y
 
 Dus bijvoorbeeld:
 
-<!---{line-numbers:false}--->
+
 ```text
 Rechthoek, 3, 5
 Rechthoek, 3,6

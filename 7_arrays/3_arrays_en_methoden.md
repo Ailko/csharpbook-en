@@ -38,7 +38,7 @@ En zal volgende error genereren:
 
 ![Duidelijk toch!](../assets/5_arrays/arrays3.png)
 
-<!---{pagebreak} --->
+
 
 ### Arraymethode voorbeeld
 
@@ -64,7 +64,7 @@ ToonArray(leeftijden);
 ``` 
 En de output zal dan zijn:
 
-<!---{line-numbers:false}--->
+
 ```
 Array output:
 2
@@ -73,7 +73,7 @@ Array output:
 6
 ```
 
-<!---{pagebreak} --->
+
 
 ### Voorbeeldprogramma met methoden
 Volgend programma toont hoe we verschillende onderdelen van de code in methoden hebben geplaatst zodat:
@@ -118,7 +118,7 @@ static void Main(string[] args)
 } 
 ```
 
-<!---{pagebreak} --->
+
 
 ### Array als return-type bij een methode
 
@@ -147,13 +147,13 @@ int[] mijnNieuweArray = MaakArray(4,666);
 Onthoud dat arrays altijd **by reference** naar en van methoden komen. Je werkt dus op de originele array, niet op een kopie er van!
 {% endhint %}
 
-<!---{pagebreak} --->
 
-<!---NOBOOKSTART--->
+
+
 {% hint style='warning' %}
-<!---NOBOOKEND--->
-<!---{aside}--->
-<!--- {float:right, width:50%} --->
+
+
+
 ![](../assets/attention.png)
 Snel, zet je helm op, voor er ongelukken gebeuren! We hadden al enkele keren gezegd dat arrays *by reference* worden meegegeven, maar wat is daar nu het gevolg van? Wel, laten we eens naar volgende programmaatje kijken dat ik heb geschreven om de nummering van de appartementen in een flatgebouw aan te passen. Zoals je weet is het gelijkvloers in sommige landen 0, terwijl in andere dit 1 is. Volgende programma past het nummer van het gelijkvloers aan:
 
@@ -190,18 +190,17 @@ Vergelijk dit met volgende voorbeeld waar we een ``int`` als parameter meegeven 
 ```
 
 Daar de methode nu werkt met een kopie, zal de aanpassing in de methode dus geen invloed hebben op de origineel meegegeven ``int`` (ongeacht dat die deel uitmaakt van een array).
-<!---{/aside}--->
-<!---NOBOOKSTART--->
+
+
 {% endhint %}
-<!---NOBOOKEND--->
 
 
 
 
-<!---NOBOOKSTART--->
+
+
 ## Kennisclip
 ![](../assets/infoclip.png)
 * [Arrays en methoden](https://ap.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=4f1a0fd6-697b-42d5-b44a-ac560097b2aa)
 
 
-<!---NOBOOKEND--->

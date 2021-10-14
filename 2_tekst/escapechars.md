@@ -1,17 +1,16 @@
 ## Escape characters
 
-<!---NOBOOKSTART--->
+
 {% hint style='warning' %}
-<!---NOBOOKEND--->
-<!---{aside}--->
-<!--- {float:right, width:50%} --->
+
+
+
 ![](../assets/attention.png)
 
 De voorman hier! Escape characters zijn niet de boeiendste materie om te bespreken. Je zou nog kunnen hopen dat het een opvolger is van Prison Break of zo. Helaas is dat niet zo. Echter: als je escape characters beheerst zal je veel eenvoudiger én mooier tekst op je scherm kunnen toveren. Let dus even goed op a.u.b.
-<!---{/aside}--->
-<!---NOBOOKSTART--->
+
 {% endhint %}
-<!---NOBOOKEND--->
+
 
 Naast letters en tekens mogen in string en chars ook escape characters staan.  In C# hebben bepaalde tekens namelijk een speciale functie, zoals de dubbele aanhalingstekens (`"`) om het begin of einde van een string-literal aan te geven. We hebben dus een manier nodig om aan te duiden wanneer de compiler het eerstvolgende teken als een ``char`` moet beschouwen, of als een teken dat deel uitmaakt van de code zelf.
 
@@ -28,7 +27,7 @@ char apostrof = ''';
 
 Het gevolg is een litanie aan vreemde foutboodschappen omdat er na de sluitende apostrof (het tweede) plots nog een apostrof (het derde) verschijnt. VS is volledig in de war zo!
 
-<!--- {width:35%} --->
+
 ![Hulp! VS snapt er niets van](../assets/1_csharpbasics/escape.png)
 
 De juiste manier is om dus een escape character te gebruiken. We gaan met de backslash aanduiden dat het volgende teken (de tweede apostrof) een ``char`` voorstelt en niet het sluitende teken in de code.
@@ -74,7 +73,7 @@ Console.WriteLine("Console.WriteLine(\"Cool he\");");
 
 Beide voorbeelden zullen dus volgende tekst op het scherm geven: ``Console.WriteLine("Cool he");``
 
-<!---{pagebreak} --->
+
 
 ### Witregels en tabs
 
@@ -100,7 +99,7 @@ In je console-scherm zijn de tab stops vooraf bepaald. Wanneer je dus een tab in
 
 In volgende tekstuitvoer zie je de tabstops op de tweede lijn "gevisualiseerd":
 
-<!---{line-numbers:false}--->
+
 ```text
 01234567890123456789012345678901234567890123456789
         1       2       3       4       5
@@ -125,7 +124,7 @@ Volgende codevoorbeeld zal, als alles goed gaat, een zin op het scherm tonen en 
 Console.WriteLine("Een zin en dan nu de biep\a");
 ```
 
-<!---{pagebreak} --->
+
 
 ### Het apenstaartje om escape characters te negeren
 
@@ -170,10 +169,9 @@ dan zal de compiler deze twee waarden letterlijk optellen en het nieuw verkregen
 Je zou misschien verwachten dat C# vervolgens het element op plaats 131 in de Unicode tabel zou tonen. Dat is niet zo: omdat de ``+`` operator niet is gedefinieerd voor het ``char`` datatype maar wel voor het ``int`` datatype, besluit de compiler om de twee operanden (``letter1`` en ``letter2``) als ``int`` operanden te hanteren. Aangezien ``int+int`` een ``int`` als resultaat geeft, krijgen we dus ``131`` op het scherm en niet het Unicode element 131 (we zien verderop hoe je dit wel kunt doen).
 {% endhint %}
 
-<!---NOBOOKSTART--->
+
 ### Kennisclip
 ![](../assets/infoclip.png)
 
 
 * [Escape characters](https://ap.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=e80901c9-0baa-47d3-9c18-ac380085c4d1)
-<!---NOBOOKEND--->

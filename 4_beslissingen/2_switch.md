@@ -66,7 +66,7 @@ switch (option)
 De case waarden moeten constanten zijn en mogen dus geen variabelen zijn. Constanten zijn de welgekende *literals* (``1``, ``"1"``, ``1.0``, ``1.d``, ``'1'``, etc.). Uiteraard moeten de case waarden van hetzelfde datatype zijn als die van de testwaarde.
 {% endhint %}
 
-<!---{pagebreak} --->
+
 
 ### Fallthrough
 
@@ -90,11 +90,10 @@ switch (option)
 
 In dit geval zullen zowel de waarden ``2`` en ``3`` resulteren in de zin "Laden of opslaan gekozen" op het scherm.
 
-<!---NOBOOKSTART--->
+
 ### Kennisclip
 ![](../assets/infoclip.png)
 
 * [Switch](https://ap.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=ce2ae654-bd58-45ed-915f-ac460095237f)
 
 
-<!---NOBOOKEND--->

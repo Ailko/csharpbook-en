@@ -64,7 +64,6 @@ Voor de gehele getallen zijn er volgende datatypes:
 
 Het bereik van ieder datatype is een rechtstreeks gevolg van het aantal bits waarmee het getal in dit type wordt voorgesteld. De ``short`` bijvoorbeeld wordt voorgesteld door 16 bits, 1 bit daarvan wordt gebruikt voor het teken (0 of 1, + of -). De overige 15 bits worden gebruikt voor de waarde: van 0 tot 2^15^-1 (= 32767) en van -1 tot -2^15^ (= -32768)
 
-<!---{pagebreak} --->
 
 Enkele opmerkingen bij voorgaande tabel:
 * De `s` vooraan `sbyte` staat voor ``signed``: m.a.w. 1 bit wordt gebruikt om het + of - teken te bewaren. 
@@ -72,11 +71,8 @@ Enkele opmerkingen bij voorgaande tabel:
 * `char` bewaart karakters. We zullen verderop dit datatype uitspitten en ontdekken dat karakters (alle tekens op het toetsenbord, inclusief getallen, leesteken, etc.) als gehele, binaire getallen worden bewaard. Daarom staat `char` in deze lijst.
 * Het grootste getal bij `long` is 2^63^-1 ("negen triljoen tweehonderddrieëntwintig biljard driehonderd tweeënzeventig biljoen zesendertig miljard achthonderdvierenvijftig miljoen zevenhonderdvijfenzeventigduizend achthonderd en zeven"). Dit zijn maar 63 bits?! Inderaad, de laatste bit wordt wederom gebruikt om het teken te bewaren.
 
-<!---NOBOOKSTART--->
 {% hint style='tip' %}
-<!---NOBOOKEND--->
-<!---{aside}--->
-<!--- {float:right, width:50%} --->
+
 ![](../assets/care.png)
 
 "Wow. Moet je al die datatypes uit het hoofd kennen? Ik was al blij dat ik tekst op het scherm kon tonen."
@@ -84,10 +80,8 @@ Enkele opmerkingen bij voorgaande tabel:
 Uiteraard kan het geen kwaad dat je de belangrijkste datatypes onthoudt, anderzijds zul je zelf merken dat door gewoon veel te programmeren je vanzelf wel zult ontdekken welke datatypes je waar kunt gebruiken. Laat je dus niet afschrikken door de ellenlange tabellen met datatypes in dit hoofdstuk, we gaan er maar een handvol effectief van gebruiken.
 
 
-<!---{/aside}--->
-<!---NOBOOKSTART--->
 {% endhint %}
-<!---NOBOOKEND--->
+
 
 #### Kommagetallen
 Voor de kommagetallen zijn er maar 3 mogelijkheden. Ieder datatype heeft een 'voordeel' tegenover de 2 andere, dit voordeel staat vet in de tabel:
@@ -129,24 +123,19 @@ Hier alvast een sneakpreview:
 * Een enkel karakter wordt bewaard in het ``char`` datatype dat we ook hierboven al even hebben zien passeren.
 
 
-<!---NOBOOKSTART--->
 {% hint style='warning' %}
-<!---NOBOOKEND--->
-<!---{aside}--->
-<!--- {float:right, width:50%} --->
+
 ![](../assets/attention.png)
 Wat een gortdroge tekst was me dat nu net? Waarom moeten we al deze datatypes kennen? Wel, we hebben deze nodig om **variabelen** aan te maken. En variabelen zijn het hart van ieder programma. Zonder variabelen ben je aan het programmeren aan een programma dat een soort vergevorderde vorm van dementie heeft en hoegenaamd niets kan onthouden. 
-<!---{/aside}--->
-<!---NOBOOKSTART--->
+
 {% endhint %}
-<!---NOBOOKEND--->
 
 
 
 
-<!---NOBOOKSTART--->
+
+
 ### Kennisclip
 ![](../assets/infoclip.png)
 
 * [Datatypes](https://ap.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=1b40cd70-3224-486b-846a-ac38009741af)
-<!---NOBOOKEND--->

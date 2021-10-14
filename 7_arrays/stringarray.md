@@ -39,7 +39,7 @@ string myName = "Tim";
 Console.WriteLine(myName.Length); //er verschijnt 3 op het scherm
 ```
 
-<!---{pagebreak} --->
+
 
 #### IndexOf
 
@@ -65,7 +65,7 @@ Console.WriteLine(boek);
 
 Dit zal de output op het scherm zijn (de spaties achteraan op lijn 1 zie je niet, maar zijn er dus wel):
 
-<!---{line-numbers:false}--->
+
 ```text
    Ik ben Reinhardt   
 Ik ben Reinhardt
@@ -83,13 +83,13 @@ Console.WriteLine(boek.ToLower());
 
 Output op het scherm:
 
-<!---{line-numbers:false}--->
+
 ```java
 IK BEN REINHARDT
 ik ben reinhardt
 ```
 
-<!---{pagebreak} --->
+
 
 #### Replace
 
@@ -129,7 +129,7 @@ Console.WriteLine(boek);
 
 Output op het scherm:
 
-<!---{line-numbers:false}--->
+
 ```java
 Ik Mercy
 ```
@@ -137,9 +137,8 @@ Ik Mercy
 
 
 
-<!---NOBOOKSTART--->
+
 ## Kennisclip
 ![](../assets/infoclip.png)
 * [Strings en arrays](https://ap.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=831314ae-c35f-4d6e-b7c0-ac54007d7abe)
 
-<!---NOBOOKEND--->

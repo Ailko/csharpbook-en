@@ -12,7 +12,7 @@ Code die compileert is enkel code die foutloos geschreven is volgens de C# afspr
 
 Volgend algoritme bijvoorbeeld is perfecte Nederlandstalige code en zal dus door een fictieve compiler kunnen gecompileerd worden. Het vervolgens uitvoeren is echter niet aan te raden (natrium en water samen geeft een stevige exotherme reactie):
 
-<!---{line-numbers:false}--->
+
 ```text
 Neem natrium
 Neem water
@@ -21,7 +21,7 @@ Voeg beide samen
 
 Dit is dus een logische fout, oftewel bug (in dit geval een **BOEM!!!!**).
 
-<!---{pagebreak} ---> 
+ 
 
 ### Debuggen met Visual Studio
 
@@ -31,12 +31,12 @@ Om dit te doen moet je een **breakpoint** (of meerdere) in je code plaatsen. Bre
 
 Een breakpoint plaats je door op het grijze gedeelte links van de lijn code te klikken. Als alles goed gaat verschijnt er dan een grote rode "breakpointbol":
 
-<!--- {height:30%} --->
+
 ![](../assets/1_csharpbasics/breakpoint.png)
 
 In bovenstaande figuur plaatsen we een breakpoint aan lijn 11. De code uitvoer zal dus nog wel lijn 10 uitvoeren, maar niet lijn 11.
 
-<!---{pagebreak} --->
+
 Als je nu je project uitvoert zal de code pauzeren aan die lijn en zal VS in "debug modus" openspringen wat er vervolgens als volgt uit ziet:
 
 ![](../assets/1_csharpbasics/debugmode.png)
@@ -48,7 +48,7 @@ In dit "nieuwe" scherm zijn er momenteel 2 belangrijke delen:
 
 ![Kan je trouwens verklaren waarom deze deling 0 blijkbaar geeft en niet 1.667.](../assets/1_csharpbasics/debugbug.png)
 
-<!---{pagebreak} --->
+
 
 ### Door je code steppen
 
@@ -61,13 +61,13 @@ We lichten hier de knoppen toe die je zeker zal nodig hebben:
 * De **rode stop** knop gebruik je indien je niet verder wilt debuggen en ogenblikkelijk terug je code wilt aanpassen.
 * De **step-over** knop (het gebogen pijltje) is een belangrijke knop. Deze zal je code één lijn code verder uitvoeren en dan weer pauzeren. Het laat je dus toe om letterlijk doorheen je code te *stappen*. Je kan dit doen om de flow van je programma te bekijken (zie volgende hoofdstukken) en om te zien hoe bepaalde variabelen evolueren doorheen je code. 
 
-<!---{pagebreak} --->
 
-<!---NOBOOKSTART--->
+
+
 {% hint style='warning' %}
-<!---NOBOOKEND--->
-<!---{aside}--->
-<!--- {float:right, width:50%} --->
+
+
+
 ![](../assets/care.png)
 
 Pfft. Debuggen. Waarom moet ik me daar nu mee bezig houden? 
@@ -83,14 +83,14 @@ Even je oren open zetten aub, ik ga iets roepen:**"Debugging is een ESSENTIËLE 
  De grootste fout die je kunt doen is gewoon door je code te "steppen" en hopen dat de bug magisch zal tevoorschijn komen. Neen, zo werkt het dus niet. Je moet actief mee denken of dat je programma effectief op een logische manier, zoals jij het voor ogen had, werkt. 
 
  Dit geldt trouwens ook wanneer je niet aan het debuggen bent, maar gewoon je programma uitvoert om het te testen. Eigenlijk ben je dan ook aan het debuggen. Ook dan moet je voorspellen wat het eindresultaat zal zijn en of dit overeen komt met wat er op het scherm gebeurt. **Wees kritisch!**
-<!---{/aside}--->
-<!---NOBOOKSTART--->
-{% endhint %}
-<!---NOBOOKEND--->
 
-<!---NOBOOKSTART--->
+
+{% endhint %}
+
+
+
 ### Kennisclip
 ![](../assets/infoclip.png)
 * [Debuggen in VS ](https://ap.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=a78b3bf5-ef96-4c2a-8248-a976006fabd1)
-<!---NOBOOKEND--->
+
 

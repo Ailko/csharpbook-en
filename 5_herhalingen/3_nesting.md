@@ -3,7 +3,7 @@
 Wanneer we 1 of meerdere loops in een andere loop plaatsen dan spreken we over **geneste loops**. 
 Geneste loops komen vaak voor, maar zijn wel een ander paar mouwen wanneer je deze zaken wilt debuggen en correct schrijven.
 
-<!--- {width:50%} --->
+
 ![Voorbeeld van geneste loops](../assets/3_loops/nesting.png)
 
 We spreken steeds over de **outer loop** als de omhullende of "grootste" loop. Waarbij de binnenste loop(s) de **inner loop(s)** is. 
@@ -27,7 +27,7 @@ while(tellerA < 3 )  //outer loop
 }
 ```
 
-<!---{pagebreak} --->
+
 
 De uitvoer hiervan zal als volgt zijn:
 
@@ -78,11 +78,10 @@ Let er op dat ``break`` je enkel uit de huidige loop zal halen. Indien je dit du
 
 
 
-<!---NOBOOKSTART--->
+
 ## Kennisclip
 
 ![](../assets/infoclip.png)
 
 * [Loop nesting](https://ap.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=c4a0d717-890e-4e74-bd79-ac4f008fdce4)
 * [Micro-tips om loop-opgaven op te lossen](https://ap.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=f1563c19-3b86-4603-a86d-ac4f00924132)
-<!---NOBOOKEND--->

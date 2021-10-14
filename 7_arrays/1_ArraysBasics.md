@@ -24,7 +24,7 @@ int dag7 = 23;
 
 Als  we je nu vragen om de gemiddelde neerslag te berekenen dan krijg je al een redelijk lang statement:
 
-<!---{line-numbers:false}--->
+
 ```java
 double gemiddelde = (dag1+dag2+dag3+dag4+dag5+dag6+dag7)/7.0;
 ```
@@ -34,19 +34,19 @@ Maar wat als je plots de neerslag van een heel jaar, 365 dagen, wenst te bewaren
 
 Voorgaande lijst van 7 aparte variabelen kunnen we eenvoudiger definiëren met 1 array (we bespreken de details verderop), genaamd ``regen``:
 
-<!---{line-numbers:false}--->
+
 ```java
 int[] regen  = {34, 45, 0, 34, 12, 0, 23}; 
 ```
 
-<!--- {width:60%} --->
+
 ![Een schematische voorstelling van een lijst van aparte variabelen en het equivalent met een array](../assets/5_arrays/intro.png)
 
-<!---{pagebreak} --->
+
 
 Het gemiddelde berekenen kan dan als volgt:
 
-<!---{line-numbers:false}--->
+
 ```java
 double gemiddelde = (dag[0]+dag[1]+dag[2]+dag[3]+dag[4]+dag[5]+dag[6])/7.0;
 ```
@@ -67,11 +67,11 @@ double gemiddelde = som/regen.Length;
 
 
 
-<!---NOBOOKSTART--->
+
 {% hint style='warning' %}
-<!---NOBOOKEND--->
-<!---{aside}--->
-<!--- {float:right, width:50%} --->
+
+
+
 ![](../assets/care.png)
 
 Sorry dat we weer even in het diepe water zijn gedoken. Het leek ons nuttig om even het totaalplaatje van arrays alvast uit de doeken te doen, zodat je snapt waarom er zo enthousiast over arrays wordt gedaan hier. 
@@ -93,10 +93,10 @@ namespace Demo1
 Alles wordt kinderspel, als je maar lang genoeg met iets bezig bent. Zelfs de code die we net toonden met die arrays zou je niet meer zo erg mogen afschrikken als die eerste keer. Ok, er staan wat nieuwe termen tussen, maar al bij al zouden de grote lijnen van het algoritme en de werking ervan duidelijk moeten zijn.
 
 Blijf dus maar hier lekker in het diep dobberen en ontdek verder waarom arrays zo'n krachtig concept zijn.
-<!---{/aside}--->
-<!---NOBOOKSTART--->
+
+
 {% endhint %}
-<!---NOBOOKEND--->
+
 
 ## Werken met arrays
 
@@ -106,7 +106,7 @@ Een array creëren (declareren) kan op verschillende manieren.
 #### Manier 1
 De eenvoudigste variant is deze waarbij je een array variabele aanmaakt, maar deze nog niet initialiseert (i.e. je maakt enkel een identifier in aan). De syntax is als volgt:
 
-<!---{line-numbers:false}--->
+
 ```java
 type[] arraynaam;
 ```
@@ -181,17 +181,17 @@ We plaatsen de naam van de array, gevolgd door brackets waarbinnen een getal , 2
 {% hint style='tip' %}
 **De index van een C#-array start steeds bij 0.** Indien je dus een array aanmaakt met lengte 5 dan heb je de indices 0 tot en met 4.
 
-<!--- {width:45%} --->
+
 ![Lengte is 5, index laatste element is 4, eerste element is 0](../assets/5_arrays/arrays1.png)
 {% endhint %}
 
-<!---{pagebreak} --->
 
-<!---NOBOOKSTART--->
+
+
 {% hint style='warning' %}
-<!---NOBOOKEND--->
-<!---{aside}--->
-<!--- {float:right, width:50%} --->
+
+
+
 ![](../assets/attention.png)
 **Veelgemaakte fouten bij arrays gebeuren op de lengte en indexering ervan**
 
@@ -201,10 +201,10 @@ De regels zijn duidelijk:
 * Bij het maken van een array is de lengte van een array gelijk aan het aantal elementen dat er in aanwezig is. *Dus een array met 5 elementen heeft als lengte 5.*
 * Bij het schrijven en lezen van individuele elementen uit de array (zie hierna) gebruiken we een indexering die start bij **0**. Bijgevolg is **4** de index van het laatste element in een array met **lengte 5**.
 
-<!---{/aside}--->
-<!---NOBOOKSTART--->
+
+
 {% endhint %}
-<!---NOBOOKEND--->
+
 
 #### Lezen
 
@@ -233,7 +233,7 @@ Kortom, alles wat je al kon, kan ook met arrays. Je kan ze zelfs als parameters 
 {% hint style='warning' %}
 Een array proberen te tonen als volgt gaat niet:
 
-<!---{line-numbers:false}--->
+
 ```java
 Console.WriteLine(myColors);
 ```
@@ -281,12 +281,12 @@ for(int teller = 0; teller < numbers.Length; teller++)
 Zoals je merkt zijn loops en arrays dikke vrienden.
 {% endhint %}
 
-<!---{pagebreak} --->
+
 
 #### Schrijven
 Ook schrijven van waarden naar de array gebruikt dezelfde notatie. Enkel moet je dus deze keer de array accessor-notatie links van de toekenningsoperator plaatsen. Stel dat we bijvoorbeeld de waarde van het eerste element uit de myColors array willen veranderen van ``red`` naar ``indigo``, dan gebruiken we volgende notatie:
 
-<!---{line-numbers:false}--->
+
 ```java
 myColors[0] = "indigo";
 ```
@@ -325,7 +325,7 @@ for(int i=1; i<=7; i++)
 **Dat gaat niet!** Van zodra je van plan bent om variabele-namen "dynamisch" in je code te proberen aan te roepen, moeten er tal van alarmbelletjes afgaan. De kans is dan héél groot dat je probleem beter met een array wordt opgelost dan met een boel variabelen met soortgelijke namen.
 {% endhint %}
 
-<!---{pagebreak} --->
+
 
 ### De lengte van de array te weten komen
 
@@ -358,19 +358,19 @@ Dit zal resulteren in een *"Out of Range exception"* fout op lijn 2.
 Hackers misbruiken dit soort fouten in code om toegang tot delen van het geheugen te krijgen waar ze eigenlijk niet mochten zijn. Dit zijn zogenaamde *buffer overflow attacks*.
 {% endhint %}
 
-<!---NOBOOKSTART--->
+
 {% hint style='warning' %}
-<!---NOBOOKEND--->
-<!---{aside}--->
-<!--- {float:right, width:50%} --->
+
+
+
 ![](../assets/attention.png)
 Sorry dat ik je al weer lastig val. Maar ik wil je nog eens extra goed naar bovenstaande fout (*exception*) laten kijken. Prent die fout, **Out of Range exception**, goed in je hoofd. 
 
 Deze fout zegt exact wat er mis is: je probeert elementen in een arrays te benaderen die niet bestaan omdat je buiten het bereik (*range*) van de array bent gegaan. Het is hetzelfde als wanneer ik tegen m'n personeel zeg "ga jij de muur alvast metsen op de zesde verdieping" (``etage[5]``) terwijl we een flatgebouw met maar 3 verdiepingen hebben (``.Length`` is dus 3). 
-<!---{/aside}--->
-<!---NOBOOKSTART--->
+
+
 {% endhint %}
-<!---NOBOOKEND--->
+
 
 ### Volledig voorbeeldprogramma met arrays
 
@@ -399,10 +399,10 @@ for (int i = 0; i < getallen.Length; i++)
 }
 ```
 
-<!---NOBOOKSTART--->
+
 ## Kennisclip
 ![](../assets/infoclip.png)
 * [Arrays](https://ap.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=d1801903-4bd3-4004-b1cb-ac4f00d3cfdf)
 
-<!---NOBOOKEND--->
+
 

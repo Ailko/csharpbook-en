@@ -6,7 +6,7 @@ Unicode is een standaard die de zogenaamde Ascii-standaard opvolgt omdat die te 
 
 Voor de statistieknerds onder ons: er zijn 1,111,998 Unicode karakters mogelijk. Momenteel zijn er daarvan 137,929 gedefinieerd. We hebben dus nog wel wat plek.
 
-<!--- {width:75%} --->
+
 ![De eerste 128 karakters met hun waarden (Bron Wikipedia)](../assets/1_csharpbasics/ascii.png)
 
 De eerste 32 karakters zijn "onzichtbare" karakters die een historische reden hebben om in de lijst te staan, maar sommige ervan zijn ondertussen niet meer erg nuttig. Origineel werd Ascii ontwikkeld als standaard om via de telegraaf te combineren. Vandaar dat vele van deze karakters commando's lijken om oude typemachines aan te sturen (line feed, bell, form feed, etc) want dat zijn ze dus ook effectief!
@@ -59,9 +59,8 @@ Console.WriteLine(eenGetal);
 
 Het programma zal driemaal een ``1`` onder elkaar tonen. Boeiend programma hoor.
 
-<!---NOBOOKSTART--->
+
 ### Kennisclip
 ![](../assets/infoclip.png)
 
 * [Char en strings](https://ap.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=dace7ae4-e4aa-4686-a3aa-ac38008c4f5e)
-<!---NOBOOKEND--->

@@ -35,7 +35,7 @@ MethodeNaam();
 
 Dat is een mondvol. We gaan daarom de methoden even stapsgewijs leren kennen. Let's go!
 
-<!---{pagebreak} --->
+
 
 ### Een eenvoudige methode
 
@@ -83,7 +83,7 @@ namespace Demo1
 }
 ```
 
-<!---{pagebreak} --->
+
 
 
 Volgende afbeelding toont hoe je programma doorheen de code loopt. De pijlen geven de flow aan:
@@ -108,7 +108,7 @@ static void Main(string[] args)
 ``string[] args`` is een verhaal apart, wat niet in dit boek aan de orde is. Weet gewoon dat je via deze ``args`` opstartparameters aan je programma kan meegeven tijdens het opstarten (bijvoorbeeld ``explorer.exe google.com``) zodat je code hier iets mee kan doen.
 {% endhint %}
 
-<!---{pagebreak} --->
+
 
 
 ## Returntypes van methoden
@@ -141,7 +141,7 @@ Een mogelijke manier om deze methode in je programma te gebruiken zou nu kunnen 
 string myName = GetNameAuthor();
 ```
 
-<!---{width:60%}--->
+
 ![Visualisatie van de flow](../assets/4_methoden/return.png)
 
 
@@ -184,7 +184,7 @@ class Program
 }
 ```
 
-<!---{pagebreak} --->
+
 
 #### ``Void`` 
 
@@ -261,11 +261,11 @@ static string WindRichting()
 {% endhint %}
 
 
-<!---NOBOOKSTART--->
+
 {% hint style='warning' %}
-<!---NOBOOKEND--->
-<!---{aside}--->
-<!--- {float:right, width:50%} --->
+
+
+
 ![](../assets/attention.png)
 Dacht je nu echt dat ik weg was?! Het is me opgevallen dat je niet altijd de foutboodschappen in VS leest. Ik blijf alvast uit jouw buurt als je zo doorgaat. Doe jezelf (en mij) dus een plezier en probeer die foutboodschappen in de toekomst te begrijpen. Er zijn er maar een handvol en bijna altijd komen ze op hetzelfde neer. Neem nou de volgende:**Not all code paths return a value**
 Die ga je nog vaak tegenkomen!
@@ -274,10 +274,10 @@ Bovenstaande error zal je vaak krijgen en geeft altijd aan dat er bepaalde delen
 
 Foutboodschappen hebben de neiging om gecompliceerder te klinken dan de effectieve fout die ze beschrijven. Een beetje zoals een lector die lesgeeft over iets waar hij zelf niets van begrijpt.
 
-<!---{/aside}--->
-<!---NOBOOKSTART--->
+
+
 {% endhint %}
-<!---NOBOOKEND--->
+
 
 ## Parameters doorgeven
 
@@ -311,7 +311,7 @@ static returntype MethodeNaam(type parameter1, type parameter2)
 
 Deze formele parameters zijn nu beschikbaar binnen de methode om mee te werken naar believen.
 
-<!---{pagebreak} --->
+
 
 Stel bijvoorbeeld dat we onze FaculteitVan5 willen veralgemenen naar een methode die voor alle getallen werkt, dan zou je volgende methode kunnen schrijven:
 
@@ -357,7 +357,7 @@ Veel beginnende programmeurs zijn soms verward dat de naam van de parameter in d
 Het is echter logisch dat deze niet noodzakelijk gelijk moeten zijn: het enige dat er gebeurt is dat de methodeparameter de waarde krijgt die je meegeeft, ongeacht van waar de parameter komt.
 {% endhint %}
 
-<!---{pagebreak} --->
+
 
 Stel bijvoorbeeld dat je de faculteiten wenst te kennen van alle getallen tussen 1 en 10, dan zou je schrijven:
 
@@ -389,7 +389,7 @@ Faculteit van 10 is 3628800
 Merk dus op dat dankzij je methode, je véél code maar één keer moet schrijven, wat de kans op fouten verlaagt.
 {% endhint %}
 
-<!---{pagebreak} --->
+
 
 #### Volgorde van actuele parameters
 
@@ -442,7 +442,7 @@ Deze is **FOUT** en zal niet compileren:
 ToonInfo(37, "Tim");
 ```
 
-<!---{pagebreak} --->
+
 
 #### Methoden nesten
 
@@ -475,10 +475,10 @@ public static void Main()
 }
 ```
 
-<!--- {width:60%} --->
+
 ![Visualisatie van bovenstaande code zonder terugkerende pijlen.](../assets/4_methoden/mmethods.png)
 
-<!---{pagebreak} --->
+
 
 #### Bugs met methoden
 
@@ -501,13 +501,13 @@ Deze code heeft een methode die zichzelf aanroept, zonder dat deze ooit afsluit,
 ![Deze keer zijn er bewust geen terugkerende pijlen getekend: ze zijn er niet.](../assets/4_methoden/oneindig.png)
 
 
-<!---{pagebreak} --->
 
-<!---NOBOOKSTART--->
+
+
 {% hint style='warning' %}
-<!---NOBOOKEND--->
-<!---{aside}--->
-<!--- {float:right, width:50%} --->
+
+
+
 ![](../assets/attention.png)
 Even ingrijpen en je attenderen op recursie zodat je code niet in je gezicht blijft ontploffen. **Recursie** is een geavanceerd programmeerconcept wat niet in dit boek wordt besproken, maar laten we het hier kort toelichten. Recursieve methoden zijn methoden die zichzelf aanroepen maar wél op een gegeven moment stoppen wanneer dat moet gebeuren. Volgend voorbeeld is een recursieve methode om de som van alle getallen tussen ``start`` en ``stop`` te berekenen:
 
@@ -529,15 +529,15 @@ Je herkent recursie aan het feit dat de methode zichzelf aanroept. Maar een cont
 int einde = BerekenSomRecursief(1,3);
 ``` 
 
-<!--- {width:60%} --->
+
 ![Flow van de recursie](../assets/4_methoden/recursie.png)
 
-<!---{/aside}--->
-<!---NOBOOKSTART--->
-{% endhint %}
-<!---NOBOOKEND--->
 
-<!---{pagebreak} --->
+
+{% endhint %}
+
+
+
 
 #### Commentaar toevoegen
 
@@ -567,7 +567,7 @@ static int Macht(int grondtal, int exponent)
 
 Wanneer we nu elders de methode ``Macht`` gebruiken dan krijgen we automatische extra informatie:
 
-<!--- {width:80%} --->
+
 ![Hoe comment getoond wordt](../assets/4_methoden/comment.png)
 
 {% hint style='tip' %}
@@ -600,9 +600,8 @@ Het voorgaande voorbeeld toont ook ineens aan waarom methoden helpen om je code 
 {% endhint %}
 
 
-<!---NOBOOKSTART--->
+
 ## Kennisclip
 ![](../assets/infoclip.png)
 * [Methoden](https://ap.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=61df170d-4f30-486f-a411-ac4f00b06415)
 * [Goede methoden schrijven](https://ap.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=453d817f-0567-4d1a-bd46-ac8c00a27bfa)
-<!---NOBOOKEND--->

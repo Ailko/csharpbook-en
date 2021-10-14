@@ -3,7 +3,7 @@ Nu we de elementaire zaken van C# en Visual Studio kennen is het tijd om onze pr
 
 Onze programma's waren met andere woorden niet meer dan een eenvoudige lijst van opdrachten. Je kan het vergelijken met een lijst die je vertelt over hoe je een brood moet kopen:
 
-<!---{line-numbers:false}--->
+
 ```text
 Neem geld uit spaarpot
 Wandel naar de bakker om de hoek
@@ -19,7 +19,7 @@ Alhoewel dit algoritme redelijk duidelijk is en goed zal werken, zal de realitei
 
 Een beter algoritme, dat foutgevoeliger én interactief voor de eindgebruiker is, zal afhankelijk van de omstandigheden (bakker gesloten, geen geld meer, etc.) mogelijke andere stappen ondernemen. **Het programma zal beslissingen maken gebaseerd op keuzes** doorheen het programma:
 
-<!---{line-numbers:false}--->
+
 ```text
 Neem geld uit spaarpot
 Als het geld op is stop dan hier, anders: ga verder

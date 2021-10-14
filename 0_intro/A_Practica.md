@@ -1,6 +1,6 @@
 ## Oefeningen
 
-<!---{pagebreak}--->
+
 
 ### De eerste stappen 
 
@@ -8,7 +8,7 @@
 
 Schrijf een applicatie met behulp van ``ReadLine()`` en ``WriteLine()``-methoden waarbij de computer aan de gebruiker om zijn of haar favoriete kleur, eten, auto, film en boek vraagt. Het programma zal de antwoorden echter door elkaar halen waardoor de computer vervolgens toont: 
 
-<!---{line-numbers:false}--->
+
 ```text
 Je favoriete kleur is [eten]. Je eet graag [auto]. Je lievelingsfilm is [boek] en je favoriete boek is [kleur].
 ```
@@ -36,4 +36,3 @@ Schrijf een programma (1 Visitekaartje), om de volgende zaken te tonen op afzond
 
 Wat cursief staat moet  vervangen worden door je eigen gepaste waarden
 
-<!---{pagebreak}--->

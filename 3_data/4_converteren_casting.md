@@ -1,11 +1,11 @@
 # Werken met data 
 
 
-<!---NOBOOKSTART--->
+
 {% hint style='warning' %}
-<!---NOBOOKEND--->
-<!---{aside}--->
-<!--- {float:right, width:50%} --->
+
+
+
 ![](../assets/attention.png)
 
 Aah, Data, een geliefkoosd personage uit Star Trek. Maar daar gaan we het niet over hebben. Het wordt tijd dat we onze werkkledij aantrekken en ons echt vuil gaan maken. 
@@ -13,10 +13,10 @@ Aah, Data, een geliefkoosd personage uit Star Trek. Maar daar gaan we het niet o
 De wereld draait op data, en dus ook de meeste applicaties die wij gaan schrijven. Echter, we hebben al gezien dat C# met verschillende datatypes werkt, dus wat gebeurt er als we data van twee verschillende datatypes willen combineren?! In Star Trek resulteerde dat 50% van de tijd in een aanval van de Borg, 20% van de tijd van de Klingons en in de overige 30% in een oersaaie aflevering (Star Wars for life!). Ahum, sorry. I got carried away. Laten we eens onderzoeken hoe we data van 'vorm' kunnen veranderen.  
 
 *May the force be with you!* Euh, ik bedoel: *Make it so!*
-<!---{/aside}--->
-<!---NOBOOKSTART--->
+
+
 {% endhint %}
-<!---NOBOOKEND--->
+
 
 Wanneer je de waarde van een variabele wilt toekennen aan een variabele van een ander type mag dit dus niet zomaar. 
 Volgende code zal bijvoorbeeld een dikke error geven:
@@ -68,7 +68,7 @@ Hierbij dien je aan de compiler te zeggen: "Volgende variabele die van het type 
 Het is als het ware een soort Amerikaanse reflex om te voorkomen dat de compiler later door ons kan aangeklaagd worden omdat hij uiterst belangrijke data heeft doen verloren gaan tijdens de omzetting. Via casting geven we aan dat we de compiler niet zullen aanklagen.
 {% endhint %}
 
-<!---{pagebreak} --->
+
 
 ### Narrowing
 Casting doe je  wanneer je een variabele wilt toekennen aan een andere variabele van een ander type dat daar eigenlijk **niet inpast** zonder dataverlies. We moeten dan aan **narrowing** doen, letterlijk het versmallen van de data.
@@ -102,23 +102,23 @@ Het resultaat in `var2` zal `20` zijn (alles na de komma wordt weggegooid bij ca
 Merk op dat `var1` nooit van datatype is veranderd; enkel de inhoud ervan (`20.4`) werd eruit gehaald, omgezet ("gecast") naar `20` en dan aan ``var2`` toegewezen dat enkel `int` aanvaardt.
 {% endhint %}
 
-<!---{pagebreak} --->
+
 
 ### Narrowing in de praktijk
 
-<!---NOBOOKSTART--->
+
 {% hint style='warning' %}
-<!---NOBOOKEND--->
-<!---{aside}--->
-<!--- {float:right, width:50%} --->
+
+
+
 ![](../assets/attention.png)
 Ela, die helm nog niet afzetten aub. We zijn er nog niet. Herinner je vorige keer nog dat ik je op slinkse manier de helft van m'n loon ging geven en je de volle 0 euro mee naar huis kreeg? 
 
 Wel, dit concept gaan we hier nog eens bekijken, maar nu in combinatie met casting. Opletten dus!
-<!---{/aside}--->
-<!---NOBOOKSTART--->
+
+
 {% endhint %}
-<!---NOBOOKEND--->
+
 
 
 Stel dat ``tempGisteren`` en ``tempVandaag`` van het type ``int`` zijn, maar dat we nu de gemiddelde temperatuur willen weten. De formule voor gemiddelde temperatuur over 2 dagen is:
@@ -176,7 +176,7 @@ Merk op dat er een subtiel verschil is tussen volgende 2 lijnen code:
 In het eerste zullen we het resultaat van de som naar `double`` omzetten. In het tweede, door de volgorde van berekeningen door de haakjes, zullen we de casting pas doen **na de deling** en zal dus 22 in plaats van 22.5 als resultaat geven.
 {% endhint %}
 
-<!---{pagebreak} --->
+
 
 ### Widening
 Casting is  niet nodig als je aan **widening** doet: een *kleiner* type in een *groter* type steken (met groter/kleiner wordt meestal het aantal bits bedoeld die het datatype per variabele van dit type nodig heeft), als volgt:
@@ -249,8 +249,7 @@ Gebruik parsing enkel wanneer je:
 1. een ``string`` hebt waarvan je weet dat deze altijd van een specifiek type zal zijn, bv een ``int``, dan kan je ``Int32.Parse()`` gebruiken.
 2. input van de gebruiker vraagt (bv via ``Console.ReadLine``) en niet 100% zeker bent dat deze een getal zal bevatten, gebruik dan ``Int32.TryParse()``. (meer info in de appendix)).
 
-<!---NOBOOKSTART--->
+
 ## Kennisclip
 ![](../assets/infoclip.png)
 * [Casting, conversie en parsing](https://ap.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=5a8cecfa-e8fb-41c8-8ec1-ac3d008960a7)
-<!---NOBOOKEND--->

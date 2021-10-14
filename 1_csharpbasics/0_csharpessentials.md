@@ -49,13 +49,9 @@ Deze keywords zijn:
 De keywords in vet zijn keywords die we in het eerste deel van dit boek zullen bekijken. Die in cursief in het tweede deel. De overige zal je zelf moeten ontdekken (of mogelijk zelfs nooit in je carrière gebruiken vanwege hun obscure nut).
 {% endhint %}
 
-<!---{pagebreak} --->
 
-<!---NOBOOKSTART--->
 {% hint style='warning' %}
-<!---NOBOOKEND--->
-<!---{aside}--->
-<!--- {float:right, width:50%} --->
+
 ![](../assets/gotopolice.png)
 
 Aandacht, aandacht! Step away from the keyboard! I repeat. Step away from the keyboard.  Hierbij wil ik u attent maken op een belangrijke, onbeschreven, wet voor C# programmeurs: "**NEVER EVER USE ``goto``**"
@@ -68,10 +64,8 @@ Voel je toch de drang: **don't!** Simpelweg, don't. Het is het niet waard. Geloo
 
 Enneuh, ik hou je in't oog hoor!
 
-<!---{/aside}--->
-<!---NOBOOKSTART--->
+
 {% endhint %}
-<!---NOBOOKEND--->
 
 ## Variabelen, identifiers en naamgeving
 
@@ -99,11 +93,8 @@ De code die we gaan schrijven moet voldoen aan een hoop regels. Wanneer we in on
   * een cijfer (``0`` tot en met ``9``)
 * **Lengte**: Een legale identifier mag zo lang zijn als je wenst, maar je houdt het best leesbaar.
 
-<!---{pagebreak} --->
-
 Volg je voorgaande regels niet dan zal je code niet gecompileerd worden en zal VS de identifiers in kwestie als een error aanduiden. Of beter, als een hele hoop errors. Schrik dus niet als je bijvoorbeeld het volgende ziet:
 
-<!--- {width:70%} --->
 ![Zoals je ziet raakt VS volledig de kluts kwijt als je je niet houdt aan de identifier regels](../assets/1_csharpbasics/frerror.jpg)
 
 
@@ -167,9 +158,8 @@ Je kan ook code in VS selecteren en dan met de comment/uncomment-knoppen in de m
 ![Linkse knop voegt comment tags toe, de rechtse verwijdert ze](../assets/1_csharpbasics/comments.png)
 {% endhint %}
 
-<!---NOBOOKSTART--->
+
 ### Kennisclip
 ![](../assets/infoclip.png)
 
 * [Essentie van C#](https://ap.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=5ada7611-488b-4890-94b7-ac3300c413f7)
-<!---NOBOOKEND--->

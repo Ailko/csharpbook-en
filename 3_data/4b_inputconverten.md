@@ -32,7 +32,7 @@ string inputGewicht = Console.ReadLine();
 double gewicht = double.Parse(inputGewicht);
 ```
 
-<!---{pagebreak} --->
+
 
 Voorgaande code kan nog 1 lijntje sneller door ``ReadLine`` ogenblikkelijk als invoer aan de Parse-methode te geven:
 
@@ -63,9 +63,8 @@ En wat als je toch foute invoer wilt opvangen? Zoals eerder aangegeven: dan is `
 {% endhint %}
 
 
-<!---NOBOOKSTART--->
+
 ## Kennisclip
 ![](../assets/infoclip.png)
 
 * [Input verwerken en omzetten](https://ap.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=a6e8b098-c0ad-40d6-9a29-ac3d008db7ab)
-<!---NOBOOKEND--->

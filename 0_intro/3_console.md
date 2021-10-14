@@ -1,4 +1,3 @@
-<!---{sample: false}--->
 ### ReadLine: Input van de gebruiker verwerken
 
 Met de console kan je met een handvol methoden reeds een aantal interessante dingen doen.
@@ -16,7 +15,6 @@ De eerste lijn code:
 * Concreet zeggen we hiermee aan de compiler: maak in het geheugen een plekje vrij waar enkel data van het type string in mag bewaard worden (wat deze zin exact betekent komt later. Onthoud nu dat geheugen van het type ``string`` enkel "tekst" kan bevatten).
 * Noem deze geheugenplek ``result``  zodat we deze later makkelijk kunnen in en uitlezen.
 
-<!---{pagebreak} --->
 
 Tweede lijn code:
 * Vervolgens roepen we de ``ReadLine`` methode aan. Deze methode zal de invoer van de gebruiker uitlezen tot de gebruiker op enter drukt.
@@ -53,7 +51,6 @@ In de tweede lijn hier gebruiken we de variabele ``result`` (waar de invoer van 
 
 Met andere woorden: de ``WriteLine`` methode zal op het scherm tonen wat de gebruiker even daarvoor heeft ingevoerd.
 
-<!---{pagebreak} --->
 
 Je volledige programma ziet er dus nu zo uit:
 
@@ -99,7 +96,7 @@ hoe gaat het met je?
 ```
 {% endhint %}
 
-<!---{pagebreak} --->
+
 
 ### Write en WriteLine
 
@@ -143,13 +140,12 @@ tim [enter]
 Dag tim hoe gaat het met je?
 ```
 
-<!---{pagebreak} --->
 
 ### Witregels in C#
 
 C# trekt zich niets aan van witregels (zowel spaties, enters en tabs) die niét binnen aanhalingstekens staan. Met andere woorden: je kan het voorgaande programma perfect in één lange lijn code typen, zonder enters. Dit is echter niet aangeraden want het maakt je code een pak onleesbaarder.
 
-<!--- {width:90%} --->
+
 ![Voorgaande programma in exact 1 lijn. Cool? Ja, in sommige kringen. Dom en onleesbaar? Ook ja.](../assets/1_csharpbasics/online.png)
 
 {% hint style='tip' %}
@@ -174,7 +170,7 @@ Console.Write("_hoe gaat het met je?");
 ```
 {% endhint %}
 
-<!---{pagebreak} --->
+
 
 ### Zinnen aan elkaar plakken
 
@@ -230,11 +226,8 @@ Als je dus ``cw`` schrijft en dan twee maal op de tab-toets van je toetsenbord d
 Wil je dit ook voor ``Console.ReadLine();``? Dan zal je een eigen, custom, snippet aan VS moeten toevoegen. [Dit wordt hier uitgelegd](https://stackoverflow.com/questions/32229103/keyboard-shortcut-for-c-sharp-console-class).
 {% endhint %}
 
-<!---NOBOOKSTART--->
+
 ### Kennisclip
 ![](../assets/infoclip.png)
 
 * [WriteLine, Write en ReadLine](https://ap.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=645c1bae-c84d-47c4-89d6-abe3009410c3)
-<!---NOBOOKEND--->
-
-<!---{sample: false}--->

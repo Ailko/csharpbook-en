@@ -13,7 +13,7 @@ In C# heb je twee soorten variabelen die we nu kort toelichten maar in het volge
 Alle datatypes die we tot nog toe zagen (``string`` is een speciaal geval en negeren we om nachtmerries te vermijden) werken steevast *by value*. Momenteel zijn het enkel arrays die we kennen die *by reference* werken in C#. In het volgende deel zullen we zien dat er echter nog een hele hoop andere mysterieuze dingen (genaamd *objecten*) zijn die ook *by reference* werken.
 {% endhint %}
 
-<!---{pagebreak} --->
+
 
 ### Arrays kopiëren
 
@@ -25,7 +25,7 @@ int[] getallen = {5,42,2};
 
 we in ``getallen`` enkel een geheugenadres bewaren dat wijst naar de plek waar de effectieve waarden staan elders in het geheugen. Dit in tegenstelling tot wanneer we ``int age = 5`` schrijven. (de redenen hiervoor zien we in het volgende deel). Volgende afbeelding geeft dit weer:
 
-<!--- {width:90%} --->
+
 ![De wolk stelt het werkgeheugen voor. De geheugenadressen zijn willekeurig](../assets/5_arrays/geheugen.png)
 
 
@@ -37,21 +37,20 @@ string[] nieuwePloegen = {"Anderlecht", "Brugge"};
 nieuwePloegen = ploegen;
 ```
 
-<!---{pagebreak} --->
+
 
 De situatie wanneer lijn 2 werd uitgevoerd is de volgende:
 
-<!--- {width:70%} --->
 ![Beerschot is de ploeg van't stad ;)](../assets/5_arrays/refbeervoor.png)
 
 Zonder het bestaan van *references* zou je verwachten dat op lijn 3 ``nieuwePloegen`` een kopie krijgt van de inhoud van ``ploegen``. 
 
 De derde lijn(``nieuwePloegen = ploegen;``) zal perfect werken. Wat er echter is gebeurd, is dat we de referentie naar ``ploegen`` ook in ``nieuwePloegen`` hebben geplaatst. **Bijgevolg verwijzen beide variabelen naar dezelfde array, namelijk die waar ``ploegen`` al naar verwees.** We hebben een soort alias gemaakt en kunnen nu op twee manieren de array met de Antwerpse voetbalploegen benaderen. De nieuwe situatie na lijn 3 is dus de volgende geworden:
 
-<!--- {width:70%} --->
+
 ![Beerschot is de ploeg van't stad ;)](../assets/5_arrays/refbeer.png)
 
-<!---{pagebreak} --->
+
 
 Als je vervolgens schrijft:
 
@@ -86,9 +85,9 @@ Er is een ingebouwde methode in de ``Array``-bibliotheek (deze bibliotheek zien 
 Opgelet: wanneer je met arrays van objecten (zie het tweede boekdeel) werkt dan zal bovenstaande mogelijk niet het gewenste resultaat geven daar we nu ook de individuele referenties van een object kopiëren!
 {% endhint %}
 
-<!---NOBOOKSTART--->
+
 ## Kennisclip
 ![](../assets/infoclip.png)
 * [Arrays en geheugen](https://ap.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=1a57ab27-bb21-4bd8-8b37-ac4f00d3cf97)
 
-<!---NOBOOKEND--->
+

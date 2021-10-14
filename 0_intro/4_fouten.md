@@ -1,4 +1,4 @@
-<!---{sample: true}--->
+
 ## Fouten oplossen
 
 Je code zal pas compileren indien deze foutloos is geschreven. Herinner je dat computers uiterst dom zijn en dus vereisen dat je code 100% foutloos is qua woordenschat en grammatica.
@@ -16,39 +16,34 @@ Uiteraard ga je vaak code hebben die meerdere schermen omvat. Je kan via de erro
 
 ![So many errors?!](../assets/1_csharpbasics/errors.png)
 
-<!---{pagebreak} --->
+
 Dit zal de "error list" openen (een schermdeel van VS dat we aanraden om altijd open te laten én dus niet weg te klikken):
 
-<!--- {width:70%} --->
 ![De error list](../assets/0_intro/errorlist.PNG)
 
 In deze list kan je nu op iedere error klikken om ogenblikkelijk naar de correcte lijn te gaan.
 
 Zou je toch willen compileren en je hebt nog fouten dan zal VS je proberen tegen te houden. **Lees nu onmiddellijk wat de voorman hierover te vertellen heeft.**
 
-<!--- {width:70%} --->
+
 ![OPLETTEN!](../assets/0_intro/errorwarning.PNG)
 
-<!---NOBOOKSTART--->
+
 {% hint style='warning' %}
-<!---NOBOOKEND--->
-<!---{aside}--->
-<!--- {float:right, width:50%} --->
+
 ![](../assets/attention.png)
 
 Opletten aub : Indien je op de groene start knop duwt en bovenstaande waarschuwing krijgt **KLIK DAN NOOIT OP YES EN DUID NOOIT DE CHECKBOX AAN**:
 
 Lees de boodschap eens goed na: wat denk je dat er gebeurt als je op 'yes' duwt? Inderdaad, VS zal de laatste werkende versie uitvoeren en dus niet de code die je nu hebt staan waarin nog fouten staan.
-<!---{/aside}--->
-<!---NOBOOKSTART--->
+
 {% endhint %}
-<!---NOBOOKEND--->
 
 {% hint style='tip' %}
 De voorman verschijnt wanneer er iets beschreven wordt waar véél fouten op gemaakt worden, zelfs bij ervaren programmeurs. Opletten geblazen dus.
 {% endhint %}
 
-<!---{pagebreak} --->
+
 
 ### Fouten oplossen
 
@@ -74,10 +69,8 @@ De meest voorkomende fouten die je als beginnende C# programmeur maakt zijn:
 
 
 
-<!---NOBOOKSTART--->
+
 ### Kennisclip
 ![](../assets/infoclip.png)
 
 * [Fouten in je code oplossen](https://ap.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=1dd4ec60-8782-4bc5-8522-ac3200d629cd)
-<!---NOBOOKEND--->
-<!---{sample: false}--->

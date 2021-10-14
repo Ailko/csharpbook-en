@@ -35,7 +35,7 @@ if (gevonden)
 
 Voorgaande stukje code is de meest naïeve oplossing. Bedenk echter wat er gebeurt indien het getal dat we zoeken 2 of meerdere keren in de array staat. Index zal dan de positie bevatten van de laatst gevonden 12 in de array. Uiteraard kan je het algoritme aanpassen om hier rekening mee te houden.
 
-<!---{pagebreak} --->
+
 
 #### Manueel zoeken met for en while
 
@@ -80,7 +80,7 @@ else
 
 Een nadeel van deze oplossing is dat we steeds de hele ``while`` doorlopen (we gebruiken geen ``break`` vanwege een allergie hiervoor bij de auteur). Bij heel lange arrays is dit dus niet erg performant.
 
-<!---{pagebreak} --->
+
 
 Volgende oplossing met een ``do while`` toont een performantere oplossing voor het eerste deel van het programma:
 
@@ -98,8 +98,7 @@ Dat was het? Er zijn tal van andere algoritmes. Denk maar aan de verschillende m
 
 
 
-<!---NOBOOKSTART--->
+
 ## Kennisclip
 ![](../assets/infoclip.png)
 * [Algoritmes en arrays](https://ap.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=90e32a53-b9ac-4162-a3e9-ac5400879d81)
-<!---NOBOOKEND--->

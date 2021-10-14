@@ -1,9 +1,9 @@
-<!---{sample: true}--->
+
+
 ## Kennismaken met C# en Visual Studio
 
 We gaan in dit boek leren programmeren met Microsoft Visual Studio 2019, een softwarepakket waar ook een gratis community versie voor bestaat. Microsoft Visual Studio (vanaf nu **VS**) is een pakket dat een groot deel van de tools samenvoegt die een programmeur nodig heeft (debugger, code editor, compiler, etc).
 
-<!--- {height:10%} --->
 ![Het Visual Studio 2019 Logo](../assets/0_intro/vslogo.png)
 
 VS is een zogenaamde IDE ("Integrated Development Environment") en is op maat gemaakt om in C# geschreven applicaties te ontwikkelen. Je bent echter verre van verplicht om enkel C# applicaties in VS te ontwikkelen, je kan gerust VB.NET, TypeScript, Python en andere talen gebruiken. Ook vice versa ben je niet verplicht om VS te gebruiken om te ontwikkelen. Je kan zelfs in notepad code schrijven en vervolgens compileren (zie hierna). Er bestaan zelfs online C# programmeer omgevingen, zoals [dotnetfiddle.net](https://dotnetfiddle.net/).
@@ -12,7 +12,7 @@ VS is een zogenaamde IDE ("Integrated Development Environment") en is op maat ge
 In dit boek zullen we steeds werken met Visual Studio. Niet met Visual Studio Code. Visual Studio code is een zogenaamde lightweight versie van VS die echter zeker ook z'n voordelen heeft (makkelijk uitbreidbaar, snel, compact, etc). Visual Studio vindt dankzij VS Code eindelijk ook z'n weg op andere platformen dan enkel die van Microsoft. Zoek je een lightweight versie dan moet je zeker [Visual Studio Code](https://code.visualstudio.com/) eens proberen.
 {% endhint %}
 
-<!---{pagebreak} --->
+
 
 ### De compiler en Visual Studio
 
@@ -32,7 +32,7 @@ Het is belangrijk bij de installatie dat je minimaal volgende zaken selecteert:
 * de **.NET desktop development** en **.NET Core cross-platform development**  workload. 
 Uiteraard ben je vrij om meerdere zaken te installeren.
 
-<!---{pagebreak} --->
+
 
 ### Visual studio opstarten
 
@@ -45,28 +45,23 @@ De allereerste keer dat je VS opstart krijg je 2 extra schermen te zien:
 
 
 
-<!---NOBOOKSTART--->
+
 {% hint style='warning' %}
-<!---NOBOOKEND--->
-<!---{aside}--->
-<!--- {float:right, width:50%} --->
+
 ![](../assets/neotim.png)
 Dark is uiteraard het coolste thema om in te coderen. Je voelt je ogenblikkelijk Neo uit The Matrix. Het nadeel van dit thema is dat het veel meer inkt verbruikt indien je screenshots in een boek zoals dit wilt plaatsen. De keuze voor Development Setting kan je naar  "Visual C#" veranderen, maar General is even goed (je zal geen verschil merken in eerste instantie). 
 
 Je kan dit achteraf nog aanpassen in VS via "Tools" in de menubalk, dan "Import and Export Settings" en kiezen voor "Import and Export Settings Wizard".
-<!---{height:40%} --->
-![](../assets/0_intro/vstheme.jpg)
-<!---{/aside}--->
-<!---NOBOOKSTART--->
-{% endhint %}
-<!---NOBOOKEND--->
 
-<!---{pagebreak} --->
+![](../assets/0_intro/vstheme.jpg)
+
+{% endhint %}
+
 
 #### Project keuze
 Na het opstarten van VS krijg je het startvenster te zien van waaruit je verschillende dingen kan doen. Van zodra je projecten gaat aanmaken zullen deze in de toekomst ook op dit scherm getoond worden zodat je snel naar een voorgaand project kunt gaan. 
 
-<!--- {height:30%} --->
+
 ![Het startscherm](../assets/0_intro/vsstart.png)
 
 
@@ -74,21 +69,21 @@ Na het opstarten van VS krijg je het startvenster te zien van waaruit je verschi
 
 We zullen nu een nieuw project aanmaken, kies hiervoor "Create a new project".
 
-<!--- {height:30%} --->
+
 ![Kies je projecttype](../assets/0_intro/proj.png)
 
 {% hint style='tip' %}
 Het "New Project" venster dat nu verschijnt geeft je hopelijk al een glimp van de veelzijdigheid van VS. In het rechterdeel zie je bijvoorbeeld alle Project Types staan. M.a.w. dit zijn alle soorten programma’s die je kan maken in VS. Naargelang de geïnstalleerde opties en bibliotheken zal deze lijst groter of kleiner zijn.
 {% endhint %}
 
-<!---{pagebreak} --->
+
 
 
 In dit boek zullen we altijd het  Project Type  **Console App** gebruiken (ZONDER .NET Framework achteraan). Een console applicatie is een programma dat alle uitvoer naar een zogenaamde *console* stuurt, een shell. M.a.w., je kan enkel tekst (Unicode) als uitvoer genereren en dus geen multimedia elementen zoals afbeeldingen, geluid, etc.
 
 Kies dit type en klik 'Next'.
 
-<!--- {height:10%} --->
+
 ![Een VS project aanmaken. Zoals je ziet zal dit soort applicatie op alle gekende computer besturingssystemen werken (Windows, Linux, Mac)](../assets/0_intro/vsproject.png)
 
 Op het volgende scherm kan je een naam ingeven voor je project alsook de locatie op de harde schijf waar het project dient opgeslagen te worden. **Onthoud waar je je project aanmaakt zodat je dit later terugvindt**.
@@ -102,14 +97,13 @@ Geef je projectnamen ogenblikkelijk duidelijke namen zodat je niet opgezadeld ge
 {% endhint %}
 Geef je project de naam "MyFirstProject" en kies een goede locatie (ik raad je aan dit steeds in Dropbox of Onedrive te doen). We raden af om de checkbox onderaan aan te vinken. In de toekomst zal het nuttig zijn dat je meer dan 1 project per solution zal kunnen hebben. Lig er nog niet van wakker.  Klik op next en kies als Target Framework de meest recente versie. **Klik nu op create**.
 
-<!---NOBOOKSTART--->
-<!--- {height:35%} --->
+
 ![Instellingen van een project. ](../assets/0_intro/vsprojectname.PNG)
-<!---NOBOOKEND--->
+
 
 VS heeft nu reeds een aantal bestanden aangemaakt die je nodig hebt om een ‘Console Applicatie’ te maken. 
 
-<!---{pagebreak} --->
+
 
 ### IDE Layout
 
@@ -140,14 +134,12 @@ De layout van VS kan je volledig naar je hand zetten. Je kan ieder (deel-)venste
 * Om eenvoudig een venster terug te krijgen, bijvoorbeeld het properties window of de solution explorer: klik bovenaan in de menubalk op "View" en kies dan het gewenste venster (soms staat dit in een submenu).
 * Je kan ook altijd je layout in z'n geheel **resetten**: ga naar "Window" en kies "Reset window layout".
 
-<!---NOBOOKSTART--->
-<!--- {width:40%} --->
+
 ![De layout resetten, een optie die in het echte leven ook soms handig zou zijn, denk je niet?](../assets/0_intro/vsreset.png)
 
-<!---NOBOOKEND--->
+
 {% endhint %}
 
-<!---{pagebreak} --->
 
 ### Je programma starten
 
@@ -165,14 +157,10 @@ Veel doet je programma nog niet natuurlijk, dus sluit dit venster maar terug af 
 
 Nee hoor. Visual Studio is lekker groot, maar laat je dat niet afschrikken. Net zoals voor het eerst op een nieuwe reisbbestemming komen, kan deze in het begin overweldigend zijn, tot je weet waar het zwembad en de pingpongtafel staat en je van daaruit je weg stilletjes aan leert kennen.
 
-<!---{pagebreak} --->
 
-<!---NOBOOKSTART--->
 
 ### Kennisclip
 ![](../assets/infoclip.png)
 * [Werken met VS](https://ap.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=73b39021-ce17-4dbc-a38e-ac3200cb1090)
 * Optioneel: [De folderstructuur van projecten](https://ap.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=f021b918-db11-43e4-93bf-a969006a6868)
 
-<!---NOBOOKEND--->
-<!---{sample: false}--->

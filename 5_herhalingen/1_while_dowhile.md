@@ -13,7 +13,7 @@ Waarbij, net als bij een ``if`` statement, de **conditie** uitgedrukt wordt als 
 
 Telkens wanneer het programma aan het einde van het ``while`` codeblock komt springt het terug naar de conditie bovenaan en zal de test wederom uitgevoerd worden. Is deze weer ``true`` dan wordt de code weer uitgevoerd. Van zodra de test ``false`` is zal de code voorbij het codeblock springen en na het ``while`` codeblok doorgaan. Het diagramma is duidelijk:
 
-<!---{width:26%}--->
+
 ![While flowchart](../assets/3_loops/while.png)
 
 
@@ -30,7 +30,7 @@ while (myCount < 100)
 
 Zolang ``myCount`` kleiner is dan 100 (``myCount < 100``) zal myCount met 1 verhoogd worden en zal de huidige waarde van myCount getoond worden. We krijgen met dit programma dus alle getallen van 1 tot en met 100 op het scherm onder elkaar te zien. Daar de test gebeurt aan het begin van de loop wil dit zeggen dat het getal 100 nog wel getoond zal worden. **Begrijp je waarom?** Test dit zelf!
 
-<!---{pagebreak} --->
+
 
 ### Complexe condities
 
@@ -72,7 +72,7 @@ while(teller<10)
 Probeer er altijd zeker van te zijn dat de variabele(n) die je gebruikt in je test-conditie ook in de loop aangepast worden. Als deze in de loop constant blijft dan zal ook de test-conditie dezelfde blijven en heb je dus een oneindige loop gemaakt.
 {% endhint %}
 
-<!---{pagebreak} --->
+
 
 ### Scope van variabelen in loops
 Let er op dat de scope van variabelen bij loops zeer belangrijk is. Indien je een variabele binnen de loop definieert dan zal deze steeds terug "gereset" worden wanneer de volgende iteratie van de loop start.
@@ -131,7 +131,7 @@ Merk op dat achteraan de testconditie een puntkomma na het ronde haakje staat. *
 
 Daar de test van een do-while achteraan de code van de loop gebeurt is het logisch dat een do-while dus minstens 1 keer wordt uitgevoerd. 
 
-<!---{pagebreak} --->
+
 
 Het volgende eenvoudige aftelprogramma toont de werking van de do-while loop:
 
@@ -174,10 +174,10 @@ Je ziet dat de test achteraan (``while(input...);``) buiten de accolades van de 
 {% endhint %}
 
 
-<!---NOBOOKSTART--->
+
 ## Kennisclip
 
 ![](../assets/infoclip.png)
 
 * [While en Do-while loops](https://ap.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=0b11650a-9e8f-4447-99da-ac4b00924061)
-<!---NOBOOKEND--->
+

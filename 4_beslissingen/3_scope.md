@@ -28,7 +28,7 @@ Wil je dus getal ook nog buiten de ``if`` gebruiken zal je je code moeten hersch
 } // einde scope getal
 ```
 
-<!---{pagebreak} --->
+
 
 ### Variabelen met zelfde naam
 Zolang je in de scope van een variabele bent, kan je geen nieuwe variabele met dezelfde naam aanmaken:
@@ -58,11 +58,11 @@ In volgende voorbeeld is dit dus wel geldig, daar de scope van de eerste variabe
 ```
 
 
-<!---NOBOOKSTART--->
+
 ### Kennisclip
 ![](../assets/infoclip.png)
 
 * [Scope van variabelen](https://ap.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=16593f9b-a0fa-4b9b-a869-ac4600958190)
 
 
-<!---NOBOOKEND--->
+

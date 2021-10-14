@@ -1,4 +1,3 @@
-<!---{sample: true}--->
 ## Kleuren in console
 
 Je kan in console-applicaties zelf bepalen in welke kleur nieuwe tekst op het scherm verschijnt. Je kan zowel de kleur van het lettertype instellen (via ``ForegroundColor``) als de achtergrondkleur (``BackgroundColor``).
@@ -54,11 +53,7 @@ Console.WriteLine("Het programma sluit nu af");
 
 
 
-<!---NOBOOKSTART--->
 ### Kennisclip
 ![](../assets/infoclip.png)
 
 * [Werken met kleuren in console](https://ap.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=a0446be7-b8f2-4ce7-ba76-abe30094107e)
-<!---NOBOOKEND--->
-
-<!---{sample: false}--->

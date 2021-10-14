@@ -48,7 +48,7 @@ Een klassiek encryptie-algoritme uit de oudheid is de Caesar substitutie. Hierbi
 
 Stel bijvoorbeeld dat x = 3 dan krijgen we volgende nieuwe alfabet:
 
-<!---{line-numbers:false}--->
+
 ```text
 DEFGHIJKLMNOPQRSTUVWXYZABC
 ```
@@ -57,14 +57,14 @@ Waarbij dus de A zal vervangen worden door een D, de Z door een C, etc.
 
 Willen we deze tekst dus encrypteren:
 
-<!---{line-numbers:false}--->
+
 ```text
 the quick brown fox jumps over the lazy dog
 ```
 
 dan krijgen we:
 
-<!---{line-numbers:false}--->
+
 ```text
 WKH TXLFN EURZQ IRA MXPSV RYHU WKH ODCB GRJ
 ```
@@ -94,7 +94,7 @@ Console.WriteLine($"Determinant van matrix is {BerekenDeterminant(aMatrix)}");
 ```
 
 geeft als output: 
-<!---{line-numbers:false}--->
+
 ```text
 Determinant van matrix is -2
 ```
@@ -111,7 +111,7 @@ int [,] array = { {15, 6, 9}, {1, 2, 3}, {6, 9, 12}};
 VisualiseerArray(array);
 ```
 
-<!---{line-numbers:false}--->
+
 ```text
 15  6  9
 1   2  3
@@ -129,7 +129,7 @@ De voetbalcoach wil na de match iedere knappe en domme actie van een speler wete
 Wanneer de coach een rugnummer intypt kan hij vervolgens ingeven of hij (a) een knappe actie of (b) een domme actie wil ingeven. Vervolgens geeft hij een getal in. Gebruik een 2dimensionale array die per speler het aantal domme en goede acties bijhoudt (de array is dus 12 bij 2 groot: 1 lijn per speler, bestaande uit 2 kolommen voor goede en domme actie. De index van de lijn is de rugnummer van speler -1). 
 
 Een typische invoer kan dus zijn:
-<!---{line-numbers:false}--->
+
 ```text
 2
 a
@@ -200,4 +200,3 @@ Toon ook aan dat je een array van 50 ints als parameter kan meegeven aan de meth
 Je moet het ``params`` keyword gebruiken, zoek zelf op hoe dit werkt!
 {% endhint %}
 
-<!---{pagebreak}--->

@@ -25,7 +25,7 @@ Deze methode vereist twee parameters:
 
 Als je in Visual Studio ``Math`` schrijft in je code, gevolgd door een punt (``.``) krijg je alles te zien wat de Math-bibliotheek kan doen:
 
-<!--- {width:50%} --->
+
 ![De sterretjes geven de meestgebruikte methoden in deze bibliotheek aan. Vervolgens verschijnen alle overige methoden alfabetisch.](../assets/4_methoden/methoden3.png)
 
 
@@ -65,7 +65,7 @@ double straal = 5.5;
 double omtrek = Math.PI * 2 * straal;
 ```
 
-<!---{pagebreak} --->
+
 
 ### Constanten
 
@@ -87,9 +87,8 @@ Er worden heelder filosofische, bijna theologische, strijden gestreden tussen on
 De applicaties die wij in dit boek ontwikkelen zijn niet groot genoeg om over te debatteren. Veel bedrijven hanteren hun eigen coding guidelines en het gebruik, naamgeving en plaatsing van magic numbers zal zeker daarin zijn opgenomen. 
 {% endhint %}
 
-<!---NOBOOKSTART--->
+
 ## Kennisclip
 ![](../assets/infoclip.png)
 * [Math-library en berekeningen](https://ap.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=3819340c-9222-4814-b1e7-ac3d009788cb)
 * [Afronden](https://ap.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=c4dfd175-47ec-4b1a-af7a-ac3d009afb99)
-<!---NOBOOKEND--->

@@ -29,7 +29,7 @@ Console.WriteLine("B");
 
 De uitvoer van dit programma zal zijn:
 
-<!---{line-numbers:false}--->
+
 ```text
 A
 B
@@ -37,12 +37,11 @@ B
 
 Indien ``number`` groter of gelijk aan 5 was dan zou er enkel ``B`` op het scherm zijn verschenen. De lijn ``Console.WriteLine("B");`` zal sowieso uitgevoerd worden zoals je ook kan zien aan de flowchart op volgende pagina.
 
-<!---{pagebreak} --->
 
-<!---{ height:90%} --->
+
 ![De flowchart van voorgaande code](../assets/2_beslissingen/ifflow.png)
 
-<!---{pagebreak} --->
+
 
 ### if met een block
 
@@ -59,13 +58,13 @@ if ( number < 5 )
 
 ![Accolades zijn duidelijk belangrijk](../assets/2_beslissingen/iffflowblock.png)
 
-<!---{pagebreak} --->
 
-<!---NOBOOKSTART--->
+
+
 {% hint style='warning' %}
-<!---NOBOOKEND--->
-<!---{aside}--->
-<!--- {float:right, width:50%} --->
+
+
+
 ![](../assets/attention.png)
 **Veelgemaakte fouten**
 Voorman hier! Je hebt me gemist. Ik merk het. Het ging goed de laatste tijd. Maar nu wordt het tijd dat ik je weer even wakker schud want de code die je nu gaat bouwen kan érg vreemde gedragingen krijgen als je niet goed oplet. Luister daarom even naar deze lijst van veel gemaakte fouten wanneer je met ``if`` begint te werken: 
@@ -100,12 +99,12 @@ if ( number < 5 );
     Console.WriteLine ("D");
 ```
 
-<!---{/aside}--->
-<!---NOBOOKSTART--->
-{% endhint %}
-<!---NOBOOKEND--->
 
-<!---{pagebreak} --->
+
+{% endhint %}
+
+
+
 
 ### Gebruik relationele en logische operators
 
@@ -138,7 +137,7 @@ if ((a >= c) && (b <= c))
 }
 ```
 
-<!---{pagebreak} --->
+
 
 ### If/else
 
@@ -158,7 +157,7 @@ else
 }
 ```
 
-<!--- {width:60%} --->
+
 ![Flowchart van bovenstaande code](../assets/2_beslissingen/ifelseflow.png)
 
 {% hint style='warning' %}
@@ -172,7 +171,7 @@ else (a <= b)   //<FOUT!
 
 {% endhint %}
 
-<!---{pagebreak} --->
+
 
 ### If/else if
 
@@ -247,7 +246,7 @@ x > 100 && a != "stop"
 Omdat beide operanden van de EN-operatie ``true`` moeten zijn om een juiste test te krijgen, zal de computer de test automatisch stoppen indien reeds de linkse operand (``x > 100``) niet waar is. Bij dit soort tests probeer je dus ervoor te zorgen dat de tests die het minste kans op slagen hebben  (of beter: het vaakst niét zal slagen) eerst te laten testen, zodat de computer geen onnodige extra tests doet.
 {% endhint %}
 
-<!---{pagebreak} --->
+
 
 ### Nesting
 We kunnen met behulp van nesting ook complexere programma flows maken. Hierbij gebruiken we de accolades om het blok code aan te duiden dat bij een ``if``/``else if``/``else`` hoort. Binnen dit blok kunnen nu echter opnieuw ``if``/``else if``/``else`` structuren worden aangemaakt.
@@ -272,25 +271,24 @@ else
 }
 ```
 
-<!---NOBOOKSTART--->
+
 {% hint style='warning' %}
-<!---NOBOOKEND--->
-<!---{aside}--->
-<!--- {float:right, width:50%} --->
+
+
+
 ![](../assets/care.png)
 
 Laat deze tiental bladzijden uitleg je niet de indruk geven dat code schrijven met ``if``-structuren een eenvoudige job is. Vergelijk het met van je pa leren hoe je met pijl en boog moet jagen, wat vlekkeloos gaat op een stilstaande schijf, tot je in het bos voor een mammoet staat die op je komt afgestormd. *Da's andere kak hé?*
 
 Het is dan ook aangeraden om, zeker in het begin, om steeds een flowchart te tekenen van wat je juist wilt bereiken. Dit zal je helpen om je code op een juiste manier op te bouwen (denk maar aan nesting en het plaatsen van meerdere ``if\else`` structuren in of na elkaar). *Bezint eer ge begint.*
-<!---{/aside}--->
-<!---NOBOOKSTART--->
-{% endhint %}
-<!---NOBOOKEND--->
 
-<!---NOBOOKSTART--->
+
+{% endhint %}
+
+
+
 ### Kennisclip
 ![](../assets/infoclip.png)
 
 * [If](https://ap.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=e1565009-be4b-4fed-a1fa-ac46009522dc)
 
-<!---NOBOOKEND--->

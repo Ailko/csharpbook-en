@@ -31,7 +31,6 @@ Maak een array aan die tot 6 ints kan bevatten. Lees 1 voor 1 de vraag uit de st
 
 Na de 6 vragen toon je vervolgens de vragen opnieuw met achter iedere vraag het antwoord van de gebruiker.
 
-<!--- {width:60%} --->
 ![Mogelijk uitvoer programma](../assets/5_arrays/arvraag.png)
 
 #### Array Zoeker
@@ -55,7 +54,7 @@ Vraag aan de gebruiker een postcode en het gewicht van het pakket. Vervolgens wo
 
 Indien het bedrijf niet levert aan de ingetypte postcode dan wordt een foutmelding weergegeven.
 
-<!---{line-numbers:false}--->
+
 ```text
 Geef gewicht pakket
 45

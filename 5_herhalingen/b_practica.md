@@ -1,9 +1,9 @@
-<!---NOBOOKSTART--->
+
 ## Nog meer oefeningen
 {% hint style='tip' %}
 Begin pas aan deze oefeningen wanneer je voldoende geoefend hebt door de vorige 2 delen oefeningen op te lossen.
 {% endhint %}
-<!---NOBOOKEND--->
+
 
 #### Grootste getal
 Vervolledig deze code zodat ook getoond wordt welke de grootste waarde is die werd ingevoerd.
@@ -45,7 +45,7 @@ Pas het Hoger Lager programma aan zodat er een maximum aantal pogingen is toeges
 
 Twee getallen tussen 2 en 20 worden ingelezen (invoercontrole!). Er moet een open rechthoek afgedrukt worden bestaande uit `*`en waarbij de ingelezen getallen respectievelijk de breedte en de hoogte van de rechthoek voorstellen. Als bijvoorbeeld 10 en 4 werden ingelezen, wordt de volgende rechthoek getoond:
 
-<!---{line-numbers:false}--->
+
 ```text
 * * * * * * * * * *
 *                 *

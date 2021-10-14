@@ -1,6 +1,6 @@
 ### Tekst gebruiken in code
 
-<!---NOBOOKSTART--->
+
 ### Enkele opmerkingen vooraf
 
 {% hint style='tip' %}
@@ -12,7 +12,7 @@ Bekijk volgende kennisclip waarin wordt uitgelegd hoe je meerdere projecten in 1
 **Probeer vanaf nu per hoofdstuk 1 solution aan te maken met daarin meerdere projecten (1 project per oefening)**
 {% endhint %}
 
-<!---NOBOOKEND--->
+
 {% hint style='tip' %}
 Sommige oefeningen zullen soms **(PRO)** in de titel hebben. Dit zijn pittigere oefeningen. Probeer ze zeker, maar laat je niet ontmoedigen als ze niet direct lukken. Het kan erg nuttig zijn om enkele hoofdstukken later nog eens terug naar deze oefeningen te gaan zien, wie weet kan je ze dan wel oplossen.
 {% endhint %}
@@ -146,7 +146,7 @@ Let er op dat dit voorbeeld niet perfect werkt met een shell-commando dat even d
 Maak enkele kleine C# programma's die bepaalde shell-commando's zullen uitvoeren, eventueel na input van de gebruiker.
 Enkele nuttige shell-commando's in de netwerk-sfeer zijn bijvoorbeeld:
 
-<!---{line-numbers:false}--->
+
 ```text
 hostname
 arp -a
@@ -157,7 +157,7 @@ netstat
 
 Andere toffe commando's kunnen zijn:
 
-<!---{line-numbers:false}--->
+
 ```text
 chrome.exe ap.be
 notepad mytest.txt
@@ -165,9 +165,8 @@ notepad mytest.txt
 
 Of de naam van een bestand dat je wilt openen, maar dan met het hele path:
 
-<!---{line-numbers:false}--->
+
 ```text
 c:\Temp\mydocument.docx
 ```
 
-<!---{pagebreak}--->

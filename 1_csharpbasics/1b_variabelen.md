@@ -104,7 +104,7 @@ Wil je echter andere getaltypes dan ``int`` of ``double `` een waarde geven dan 
 * ``F`` of ``f`` voor ``float``, vb: ``12.5f``.
 * ``M`` of ``m`` voor ``decimal``, vb: ``12.5M``.
 
-<!---{pagebreak} --->
+
 
 Naast getallen zijn er uiteraard ook nog andere datatypes waar we de literals van moeten kunnen schrijven:
 
@@ -146,7 +146,7 @@ byte myByteValue =  0b‭00100100‬1;
 
 Deze schrijfwijzen kunnen handig zijn wanneer je met binaire of hexadecimale data wilt werken die je bijvoorbeeld uit een stuk hardware hebt uitgelezen (bijvoorbeeld een Arduino of Raspberry Pi).
 
-<!---{pagebreak} --->
+
 
 ### Nieuwe waarden overschrijven oude waarden
 
@@ -193,9 +193,8 @@ kdRating = 3.4;
 
 {% endhint %}
 
-<!---NOBOOKSTART--->
+
 ### Kennisclip
 ![](../assets/infoclip.png)
 * [Variabelen](https://ap.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=17b14f94-5805-4ce1-a4d6-ac3800a51815)
 
-<!---NOBOOKEND--->

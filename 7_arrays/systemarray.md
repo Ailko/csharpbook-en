@@ -29,7 +29,7 @@ Met de ``Array.Reverse()``-methode kunnen we dan weer de volgorde van de element
 Array.Reverse(myColors);
 ```
 
-<!---{pagebreak} --->
+
 
 ### Clear: Arrays leegmaken
 Een array volledig leegmaken (alle elementen op hun standaard waarde zetten (bv. ``0`` bij ``int`` of ``false`` bij ``bool``) doe je met de ``Array.Clear()``-methode, als volgt:
@@ -63,7 +63,7 @@ Array.Copy(myColors, copyColors, 2);
 Bekijk zeker ook de overloaded versies die de ``.Copy()`` methode heeft. Zo kan je ook een bepaald stuk van een array kopiëren en ook bepalen waar in de doel array dit stuk moet komen.
 {% endhint %}
 
-<!---{pagebreak} --->
+
 
 ### BinarySeach: Zoeken in arrays
 
@@ -99,8 +99,7 @@ else
 
 
 
-<!---NOBOOKSTART--->
+
 ## Kennisclip
 ![](../assets/infoclip.png)
 * [System.Array](https://ap.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=3b587f2c-fc98-42d1-81ed-ac54007d7a4b)
-<!---NOBOOKEND--->

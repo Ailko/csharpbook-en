@@ -80,7 +80,7 @@ Console.WriteLine("Indien het getal als rest 0 geeft is deze even.");
 Console.WriteLine("De rest is: "+ rest);
 ```
 
-<!---{pagebreak} --->
+
 
 #### Verkorte operator notaties
 Heel vaak wil je de inhoud van een variabele bewerken en dan terug bewaren in de variabele zelf. Bijvoorbeeld een variabele vermenigvuldigen met 10 en het resultaat ervan terug in de variabele plaatsen. Hiervoor zijn enkele verkorte notaties in C#.
@@ -113,21 +113,18 @@ Als je de operator achter de operand zet (``som++``) dan zal eerst de waarde van
 
 ##  Expressiedatatypes 
 
-<!---NOBOOKSTART--->
+
 {% hint style='warning' %}
-<!---NOBOOKEND--->
-<!---{aside}--->
-<!--- {float:right, width:50%} --->
+
 ![](../assets/attention.png)
 Gegroet! Zet je helm op en let alsjeblieft goed op. Als je het volgende stuk goed begrijpt (en blijft begrijpen) dan heb je al een grote stap vooruit gezet in de wondere wereld van C#. 
 
 We vertelden al dat variabelen het hart van programmeren zijn. Wel, expressies zijn het bloedvatensysteem dat ervoor zorgt dat al je variabelen ook effectief gecombineerd kunnen worden tot wondermooie nieuwe dingen. 
 
 Succes!
-<!---{/aside}--->
-<!---NOBOOKSTART--->
+
 {% endhint %}
-<!---NOBOOKEND--->
+
 
 Lees deze zin enkele keren luidop voor, voor je verder gaat: **De types die je in je expressies gebruikt bepalen ook het type van het resultaat.** Als je bijvoorbeeld twee ``int`` variabelen of literals optelt zal het resultaat terug een ``int`` geven (klink logisch, maar lees aandachtig verder):
 
@@ -144,7 +141,7 @@ Bovenstaande code geeft volgende fout: ``Cannot implicitly convert double to int
 
 **Let hier op!**
 
-<!---{pagebreak} --->
+
 
 ### But wait... it gets worse! 
 
@@ -184,13 +181,11 @@ Console.WriteLine(result);
 ```
 En nu krijgen we wel ``4.5`` aangezien we nu een ``int`` door een ``double`` delen en C# dus ook het resultaat dan als een ``double`` zal teruggeven.
 
-<!---{pagebreak} --->
 
-<!---NOBOOKSTART--->
+
+
 {% hint style='warning' %}
-<!---NOBOOKEND--->
-<!---{aside}--->
-<!--- {float:right, width:50%} --->
+
 ![](../assets/attention.png)
 Begrijp je nu waarom dit een belangrijk deel was? Je kan erg snel erg foute berekeningen en ongewenste afrondingen krijgen indien je niet erg bewust omgaat met je datatypes. 
 
@@ -217,14 +212,12 @@ double helft = 10000.0 * (1.0 / 2);
 ```
 
 Nu krijgt het gedeelte tussen de haakjes een ``double`` als resultaat, namelijk ``0.5`` dat we dan kunnen vermenigvuldigen met het salaris om ``5000.0`` te krijgen, wat jij vermoedelijk een fijner resultaat vindt.
-<!---{/aside}--->
-<!---NOBOOKSTART--->
+
 {% endhint %}
-<!---NOBOOKEND--->
 
 
-<!---NOBOOKSTART--->
+
 ## Kennisclip
 ![](../assets/infoclip.png)
 * [Expressies](https://ap.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=67287dee-b3b8-49a6-886c-ac3a00a1eb65)
-<!---NOBOOKEND--->
+
