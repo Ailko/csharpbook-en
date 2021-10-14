@@ -18,5 +18,8 @@
     "cSpell.words": [
         "false",
         "true"
-    ]
+    ],
+    "[markdown]": {
+        "editor.cursorSurroundingLines": 0
+    }
 }
