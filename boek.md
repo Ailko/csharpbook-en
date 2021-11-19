@@ -1,8 +1,8 @@
-Deze cursus wordt ook aangeboden voor de "buitenwereld". Deze online cursus zal ten allen tijde gratis voor de studenten beschikbaar zijn. 
+This course is also offered to the "outside world". This online course will at all times be available to the students for free.
 
 De gepubliceerde versies zijn identiek aan deze cursus.
 
-Kijk op [ziescherp.be](ziescherp.be) waar u deze cursus op verschillende manieren kunt aanschaffen (kleur of zwart wit, pdf of papier, etc.)
+Look on [ziescherp.be](ziescherp.be) where you can purchase this course in multiple ways (color or black and white, pdf or paper, etc.)
 
 
 ![](./assets/boeks.jpg)
@@ -10,8 +10,8 @@ Kijk op [ziescherp.be](ziescherp.be) waar u deze cursus op verschillende maniere
 
 
 {% hint style='tip' %}
-Wil ik rijk worden hiermee? Neen, maar ik vind het jammer dat niet iedereen toegang heeft tot mijn briljante cursus ;) 
+Do I want to get rich with this? No, but I think it's a shame that not everyone has access to my brilliant course ;)
 
-Alle gekheid op een stokje: de reden dat ik de cursus ook tegen een prijs(je) aanbied is om uit de kosten te geraken voor het schrijven van dit boek tijdens de lockdown 2020 en ik de proefdrukversies zelf moest bekostigen.
+All kidding aside: the reason that I also offer the course at a price is to get out of the writing costs during the lockdown in 2020 and because I had to pay for the proofs myself.
 {% endhint %}
 
