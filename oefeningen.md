@@ -1,3 +1,3 @@
-Je kan alle oefeningen, oefentesten en verbetering op volgende cursus terugvinden:
+All the exercises, practice tests and improvements on the following course can be found here:
 
 [https://app.gitbook.com/@apwt/s/ziescherp-oefeningen](https://app.gitbook.com/@apwt/s/ziescherp-oefeningen)
