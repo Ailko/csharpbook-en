@@ -1,8 +1,8 @@
-This course is also offered to the "outside world". This online course will at all times be available to the students for free.
+This course is also offered to the "outside world". This online course will be available to the students for free at all times.
 
-De gepubliceerde versies zijn identiek aan deze cursus.
+The published versions are identical to this course.
 
-Look on [ziescherp.be](ziescherp.be) where you can purchase this course in multiple ways (color or black and white, pdf or paper, etc.)
+Go to [ziescherp.be](ziescherp.be) where you can purchase this course in multiple ways (color or black and white, pdf or paper, etc.)
 
 
 ![](./assets/boeks.jpg)
