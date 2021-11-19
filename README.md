@@ -1,26 +1,26 @@
-# Zie scherp
-# Over dit boek
+# See sharp
+# About this book
 
-Dit boek wordt gebruikt als handboek binnen de opleidingen professionele bachelor Elektronica-ICT en Toegepaste Informatica van de AP Hogeschool.
+This book is used as handbook within the proffesional bachelor Electronics-ICT and Applied Informatics of AP University College.
 
-Concreet is dit het handboek voor de eerste 2 semesters omtrent 'leren programmeren met C\#':
+Specifically, this is the handbook used for the first 2 semesters concerning 'learning to program with C\#':
 
-* Zie Scherp: Programming Principles, eerste semester
-* Zie Scherper: Object Oriented Programming, tweede semester
+* See Sharp: Programming Principles, first semester
+* See Sharper: Object Oriented Programming, second semester
 
 
 ![](./assets/boek.jpg)
 
 
-# Boek verkrijgen
+# Acquiring the book
 
-Deze cursus wordt ook aangeboden voor de "buitenwereld". Deze online cursus zal ten allen tijde beschikbaar blijven onder het Creatieve Commons 4.0 principe (zie onderaan). Wil je deze cursus toch in papieren of andere digitale vorm hebben? Dat kan via [ziescherp.be](ziescherp.be).
+This course is also offered to the "outside world". This online course will at all times be available under the Creative Commons 4.0 principle (see below). Do you want this course in paper or other digital form anyways? This is possible through [ziescherp.be](ziescherp.be) (Dutch).
 
 
 {% hint style='hint' %}
-Het vervolgboek (Zie Scherper) is ook beschikbaar. Kijk op [ziescherp.be](ziescherp.be) voor meer informatie.
+The follow-up book (See Sharper) is also available. See [ziescherp.be](ziescherp.be) for more information.
 
-Er is ook een editie (Zie Scherp Scherper) die beide boeken combineert in een handig geheel. Ook daarvoor verwijs ik graag naar  [ziescherp.be](ziescherp.be).
+There is also een edition (See Sharp Sharper) that combines both books in one handy whole. For this I'd like to also refer to [ziescherp.be](ziescherp.be).
 {% endhint %}
 
 
