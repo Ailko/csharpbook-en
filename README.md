@@ -1,7 +1,7 @@
 # See sharp
 # About this book
 
-This book is used as handbook within the proffesional bachelor Electronics-ICT and Applied Informatics of AP University College.
+This book is used as handbook within the proffesional bachelor Electronics-ICT and Applied Informatics at AP University College.
 
 Specifically, this is the handbook used for the first 2 semesters concerning 'learning to program with C\#':
 
