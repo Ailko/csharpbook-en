@@ -42,3 +42,10 @@ So if you want to learn programming, you will have to learn to think logically a
 {% hint style='tip' %}
 By the way, from now on you are authorized to email the news services every time they incorrectly use the word "logarithm" instead of "algorithm." The word logarithm is something that evokes nightmares from math classes for some and has absolutely nothing to do with programming. Of course, one day you may have to write an algorithm to calculate a logarithm. Hopefully, a journalist will never have to use the preceding sentence in a news report.
 {% endhint %}
+
+### Programming Language
+
+To write an algorithm that our computer understands we need to use a programming language. Computers have their own language that programmers must know before they can *feed* their algorithm to the computer. There are numerous computer languages, some more obscure than others. But what all these languages have in common is that they usually:
+* being **unambiguous**: every command or word can only be interpreted by the computer in exactly one way. This is in contrast to, say, English where "Jake told Tom he had  a problem." could both mean that Jake or Tom has a problem.
+* consist of **vocabulary**: just like English, every programming language has a, usually limited, list of words you can use. You don't make up words in English in the hope that your partner can understand you. To make this comparison work, we'll ignore Shakespear for a moment.
+* consist of **grammar rules**: Only Yoda may use English in a wrong order. Everyone else is best to adhere to the grammar rules that a language has. "Ball red is" still seems understandable, but if we say "ball red boy is throws a lot"?
