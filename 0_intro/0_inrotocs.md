@@ -61,3 +61,23 @@ The nice thing about learning to program is that you are soon going to get to a 
 
 Even JavaScript, Python, and many other modern languages will hold few secrets for you when you get to the end of this book.
 {% endhint %}
+
+### The Compiler
+
+Directly telling our algorithms to the computer requires us to be able to speak machine language. However, this is so complex that we need dozens of lines of machine language just to get 1 letter on the screen. So higher programming languages were developed that are more pleasant than these so-called machine languages for talking to computers.
+
+Of course, we need a translator that will translate our code into the machine language of the device on which our program must run. This translator is the **compiler** which takes on quite a bit of complex work, but thus essentially makes our code ready for use by the computer.
+
+![Simplified compiler overview](../assets/1_csharpbasics/compilersimple.png)
+
+Note that we are leaving out many details of the compiler here. The compiler is an extremely complex element, but at this stage of your (fledgling) programmer's life, we only need to understand the core of the compiler: **converting C# code to an executable file written in IL code**.
+
+{% hint style='tip' %}
+**Microsoft .NET**
+
+The birth of .NET in 2000 included the language C#.
+
+.NET is a so-called **framework**. This framework consists of a large group of libraries (*class libraries*) and a *virtual execution system* called the **Common Language Runtime (CLR)**. The CLR will allow C#, or other .NET languages (F#, VB.NET, etc.), to interoperate with the many libraries.
+
+To create an executable file (**executable**, hence the extension .exe for executable programs in windows), the source code you wrote in C# will be converted to **Intermediate Language** (IL) code. By itself, this IL code is not yet executable, but that is not our problem. When a user wants to execute a file written in IL then, behind the scenes, the CLR will immediately convert this code to machine code (**Just-In-Time** or JIT compilation) and execute it. Thus, the user will never notice this process (unless there is no .NET framework installed on the system).
+{% endhint %}
