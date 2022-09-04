@@ -1,0 +1,5 @@
+# The first steps
+
+Well, well, who do we have here?! Someone who wants to learn the noble art of programming? Then you've come to the right place. You may not believe it, but at the end of this chapter you will already be able to create your first very own computer applications. The road to eternal fame, glory, lots of cursing and reusing code is in front of you. Are you ready?
+
+The first steps are never easy. We are gonna try to keep the amount of expensive words, weird abbreviations and complicated diagrams to a minimum. Still, if you want to learn a new art you will have to get your hands (and keyboard) dirty. No matter what happens in the coming chapters: keep persevering. Learning to program is a bit like learning to climb a mountain that you never seem to be able to reach the summit of. Which is also true. There is no "summit", and that is just the beauty of it all. There's always something new to learn! The things you will be cursing over in the coming pages will seem like child's play in a few chapters. So hang in there, keep practicing, feel free to curse every once in a while and most importantly: enjoy discovering new things!
