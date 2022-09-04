@@ -68,6 +68,7 @@ Directly telling our algorithms to the computer requires us to be able to speak 
 
 Of course, we need a translator that will translate our code into the machine language of the device on which our program must run. This translator is the **compiler** which takes on quite a bit of complex work, but thus essentially makes our code ready for use by the computer.
 
+
 ![Simplified compiler overview](../assets/1_csharpbasics/compilersimple.png)
 
 Note that we are leaving out many details of the compiler here. The compiler is an extremely complex element, but at this stage of your (fledgling) programmer's life, we only need to understand the core of the compiler: **converting C# code to an executable file written in IL code**.
@@ -81,3 +82,10 @@ The birth of .NET in 2000 included the language C#.
 
 To create an executable file (**executable**, hence the extension .exe for executable programs in windows), the source code you wrote in C# will be converted to **Intermediate Language** (IL) code. By itself, this IL code is not yet executable, but that is not our problem. When a user wants to execute a file written in IL then, behind the scenes, the CLR will immediately convert this code to machine code (**Just-In-Time** or JIT compilation) and execute it. Thus, the user will never notice this process (unless there is no .NET framework installed on the system).
 {% endhint %}
+
+
+
+### Knowledge Clips
+![](../assets/infoclip.png)
+* [Introductie tot C# (Dutch)](https://ap.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=f517d032-35b9-4c9f-ba91-ac33007cd2a6)
+
