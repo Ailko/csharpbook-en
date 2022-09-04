@@ -69,7 +69,7 @@ Directly telling our algorithms to the computer requires us to be able to speak 
 Of course, we need a translator that will translate our code into the machine language of the device on which our program must run. This translator is the **compiler** which takes on quite a bit of complex work, but thus essentially makes our code ready for use by the computer.
 
 
-![Simplified compiler overview](../assets/1_csharpbasics/compilersimple.png)
+![Simplified compiler overview](../assets/1_csharpbasics/compilersimple_en.png)
 
 Note that we are leaving out many details of the compiler here. The compiler is an extremely complex element, but at this stage of your (fledgling) programmer's life, we only need to understand the core of the compiler: **converting C# code to an executable file written in IL code**.
 
